@@ -23,10 +23,31 @@ nbproject
 .claude/
 
 # large files
-python/assets/decomp-hacks/
+python-scripts/raw-assets/decomp-hacks/
 
 # downloaded via setup.py
-python/assets/veekun-csv/
+python-scripts/raw-assets/pokeapi-csv/
+python-scripts/raw-assets/pokesprite-items/
+python-scripts/raw-assets/ds-style-sprites/
+python-scripts/raw-assets/pokemon-cries/
+python-scripts/raw-assets/move-sfx/
+python-scripts/raw-assets/item-sprites-raw/
+python-scripts/extracted-assets/footprint/
 
 # npm module
 pokedata3g/
+
+# Sprite resource
+sprite-resource/*
+
+# copied from python-scripts/raw-assets/move-sfx by generate/move_sounds.py
+battle-playground/src/assets/sounds/move_sfx/
+
+# node / build output
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+
+# separate git repo
+pokefont/
