@@ -1,0 +1,46 @@
+[
+  {
+    "id": "building",
+    "label": "Building"
+  },
+  {
+    "id": "cave",
+    "label": "Cave"
+  },
+  {
+    "id": "long_grass",
+    "label": "Long Grass"
+  },
+  {
+    "id": "pond_water",
+    "label": "Pond Water"
+  },
+  {
+    "id": "rock",
+    "label": "Rock"
+  },
+  {
+    "id": "sand",
+    "label": "Sand"
+  },
+  {
+    "id": "sky",
+    "label": "Sky"
+  },
+  {
+    "id": "stadium",
+    "label": "Stadium"
+  },
+  {
+    "id": "tall_grass",
+    "label": "Tall Grass"
+  },
+  {
+    "id": "underwater",
+    "label": "Underwater"
+  },
+  {
+    "id": "water",
+    "label": "Water"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "player_back": {
+    "frameCount": 5,
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "strip": "player_back_strip.png",
+    "files": [
+      "player_back/frame_0.png",
+      "player_back/frame_1.png",
+      "player_back/frame_2.png",
+      "player_back/frame_3.png",
+      "player_back/frame_4.png"
+    ],
+    "sourceRom": "firered",
+    "sourceFile": "graphics/trainers/back_pics/red_back_pic.png"
+  },
+  "rival_front": {
+    "frameCount": 1,
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "files": [
+      "rival_front.png"
+    ],
+    "sourceRom": "firered",
+    "sourceFile": "graphics/trainers/front_pics/rival_early_front_pic.png"
+  }
+}

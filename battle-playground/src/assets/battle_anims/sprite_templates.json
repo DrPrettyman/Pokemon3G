@@ -1,0 +1,7359 @@
+{
+  "gMegahornHornSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HORN_HIT_2",
+    "paletteTag": "ANIM_TAG_HORN_HIT_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimMegahornHorn",
+    "anims": []
+  },
+  "gLeechLifeNeedleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimLeechLifeNeedle",
+    "anims": []
+  },
+  "gWebThreadSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WEB_THREAD",
+    "paletteTag": "ANIM_TAG_WEB_THREAD",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimTranslateWebThread",
+    "anims": []
+  },
+  "gStringWrapSpriteTemplate": {
+    "tileTag": "ANIM_TAG_STRING",
+    "paletteTag": "ANIM_TAG_STRING",
+    "oam": "gOamData_AffineOff_ObjNormal_64x32",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "callback": "AnimStringWrap",
+    "anims": []
+  },
+  "gSpiderWebSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPIDER_WEB",
+    "paletteTag": "ANIM_TAG_SPIDER_WEB",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpiderWeb",
+    "anims": []
+  },
+  "gLinearStingerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimTranslateStinger",
+    "anims": []
+  },
+  "gPinMissileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_NEEDLE",
+    "paletteTag": "ANIM_TAG_NEEDLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMissileArc",
+    "anims": []
+  },
+  "gIcicleSpearSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICICLE_SPEAR",
+    "paletteTag": "ANIM_TAG_ICICLE_SPEAR",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimMissileArc",
+    "anims": []
+  },
+  "gTailGlowOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimTailGlowOrb",
+    "anims": []
+  },
+  "gSharpTeethSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SHARP_TEETH",
+    "paletteTag": "ANIM_TAG_SHARP_TEETH",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBite",
+    "anims": []
+  },
+  "gClampJawSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CLAMP",
+    "paletteTag": "ANIM_TAG_CLAMP",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBite",
+    "anims": []
+  },
+  "gTearDropSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimTearDrop",
+    "anims": []
+  },
+  "gClawSlashSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CLAW_SLASH",
+    "paletteTag": "ANIM_TAG_CLAW_SLASH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimClawSlash",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gOutrageFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimOutrageFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gDragonBreathFireSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimDragonFireToTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gDragonRageFirePlumeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FIRE_PLUME",
+    "paletteTag": "ANIM_TAG_FIRE_PLUME",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimDragonRageFirePlume",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        },
+        {
+          "tileOffset": 64,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gDragonRageFireSpitSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimDragonFireToTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gDragonDanceOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HOLLOW_ORB",
+    "paletteTag": "ANIM_TAG_HOLLOW_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimDragonDanceOrb",
+    "anims": []
+  },
+  "gOverheatFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimOverheatFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gSleepPowderParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLEEP_POWDER",
+    "paletteTag": "ANIM_TAG_SLEEP_POWDER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimMovePowderParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 6,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 10,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 14,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gStunSporeParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_STUN_SPORE",
+    "paletteTag": "ANIM_TAG_STUN_SPORE",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimMovePowderParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 6,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 10,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 14,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gPoisonPowderParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_POWDER",
+    "paletteTag": "ANIM_TAG_POISON_POWDER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimMovePowderParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 6,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 10,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 14,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gPowerAbsorptionOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPowerAbsorptionOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSolarBeamBigOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSolarBeamBigOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 1,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 2,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 3,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 5,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSolarBeamSmallOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSolarBeamSmallOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 7,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gStockpileAbsorptionOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GRAY_ORB",
+    "paletteTag": "ANIM_TAG_GRAY_ORB",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimPowerAbsorptionOrb",
+    "anims": []
+  },
+  "gAbsorptionOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimAbsorptionOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gHyperBeamOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimHyperBeamOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 1,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 2,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 3,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 5,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gLeechSeedSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SEED",
+    "paletteTag": "ANIM_TAG_SEED",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimLeechSeed",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 7
+        },
+        {
+          "tileOffset": 8,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gSporeParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPORE",
+    "paletteTag": "ANIM_TAG_SPORE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSporeParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gPetalDanceBigFlowerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPetalDanceBigFlower",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gPetalDanceSmallFlowerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimPetalDanceSmallFlower",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRazorLeafParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimRazorLeafParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 20,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        }
+      ],
+      [
+        {
+          "tileOffset": 24,
+          "duration": 5
+        },
+        {
+          "tileOffset": 28,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gTwisterLeafSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMoveTwisterParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 20,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        }
+      ],
+      [
+        {
+          "tileOffset": 24,
+          "duration": 5
+        },
+        {
+          "tileOffset": 28,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gRazorLeafCutterSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RAZOR_LEAF",
+    "paletteTag": "ANIM_TAG_RAZOR_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimTranslateLinearSingleSineWave",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gSwiftStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_YELLOW_STAR",
+    "paletteTag": "ANIM_TAG_YELLOW_STAR",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimTranslateLinearSingleSineWave",
+    "anims": []
+  },
+  "gConstrictBindingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TENDRILS",
+    "paletteTag": "ANIM_TAG_TENDRILS",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x32",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "callback": "AnimConstrictBinding",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        },
+        {
+          "tileOffset": 96,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        },
+        {
+          "tileOffset": 96,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gMimicOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMimicOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIngrainRootSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROOTS",
+    "paletteTag": "ANIM_TAG_ROOTS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimIngrainRoot",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gFrenzyPlantRootSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROOTS",
+    "paletteTag": "ANIM_TAG_ROOTS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFrenzyPlantRoot",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gIngrainOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORBS",
+    "paletteTag": "ANIM_TAG_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimIngrainOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 3,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gPresentSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimPresent",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 30
+        }
+      ]
+    ]
+  },
+  "gKnockOffItemSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimKnockOffItem",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 30
+        }
+      ]
+    ]
+  },
+  "gPresentHealParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GREEN_SPARKLE",
+    "paletteTag": "ANIM_TAG_GREEN_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPresentHealParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 4,
+          "duration": 4
+        },
+        {
+          "tileOffset": 8,
+          "duration": 4
+        },
+        {
+          "tileOffset": 12,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gItemStealSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimItemSteal",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 30
+        }
+      ]
+    ]
+  },
+  "gTrickBagSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ITEM_BAG",
+    "paletteTag": "ANIM_TAG_ITEM_BAG",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimTrickBag",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 30
+        }
+      ]
+    ]
+  },
+  "gLeafBladeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LEAF",
+    "paletteTag": "ANIM_TAG_LEAF",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "SpriteCallbackDummy",
+    "anims": [
+      [
+        {
+          "tileOffset": 28,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 28,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 28,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gAromatherapySmallFlowerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimFlyingParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gAromatherapyBigFlowerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLOWER",
+    "paletteTag": "ANIM_TAG_FLOWER",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFlyingParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSilverWindBigSparkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFlyingParticle",
+    "anims": []
+  },
+  "gSilverWindMediumSparkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFlyingParticle",
+    "anims": []
+  },
+  "gSilverWindSmallSparkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_6",
+    "paletteTag": "ANIM_TAG_SPARKLE_6",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFlyingParticle",
+    "anims": []
+  },
+  "gNeedleArmSpikeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GREEN_SPIKE",
+    "paletteTag": "ANIM_TAG_GREEN_SPIKE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimNeedleArmSpike",
+    "anims": []
+  },
+  "gSlamHitSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLAM_HIT",
+    "paletteTag": "ANIM_TAG_SLAM_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWhipHit",
+    "anims": [
+      [
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gVineWhipSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WHIP_HIT",
+    "paletteTag": "ANIM_TAG_WHIP_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWhipHit",
+    "anims": [
+      [
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gCuttingSliceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimCuttingSlice",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gAirCutterSliceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimAirCutterSlice",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gProtectSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PROTECT",
+    "paletteTag": "ANIM_TAG_PROTECT",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimProtect",
+    "anims": []
+  },
+  "gMilkBottleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MILK_BOTTLE",
+    "paletteTag": "ANIM_TAG_MILK_BOTTLE",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimMilkBottle",
+    "anims": []
+  },
+  "gGrantingStarsSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_2",
+    "paletteTag": "ANIM_TAG_SPARKLE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimGrantingStars",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        },
+        {
+          "tileOffset": 64,
+          "duration": 7
+        },
+        {
+          "tileOffset": 80,
+          "duration": 7
+        },
+        {
+          "tileOffset": 96,
+          "duration": 7
+        },
+        {
+          "tileOffset": 112,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gSparklingStarsSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_2",
+    "paletteTag": "ANIM_TAG_SPARKLE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSparklingStars",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 7
+        },
+        {
+          "tileOffset": 16,
+          "duration": 7
+        },
+        {
+          "tileOffset": 32,
+          "duration": 7
+        },
+        {
+          "tileOffset": 48,
+          "duration": 7
+        },
+        {
+          "tileOffset": 64,
+          "duration": 7
+        },
+        {
+          "tileOffset": 80,
+          "duration": 7
+        },
+        {
+          "tileOffset": 96,
+          "duration": 7
+        },
+        {
+          "tileOffset": 112,
+          "duration": 7
+        }
+      ]
+    ]
+  },
+  "gSleepLetterZSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LETTER_Z",
+    "paletteTag": "ANIM_TAG_LETTER_Z",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSleepLetterZ",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 40
+        }
+      ]
+    ]
+  },
+  "gLockOnTargetSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LOCK_ON",
+    "paletteTag": "ANIM_TAG_LOCK_ON",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLockOnTarget",
+    "anims": []
+  },
+  "gLockOnMoveTargetSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LOCK_ON",
+    "paletteTag": "ANIM_TAG_LOCK_ON",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimLockOnMoveTarget",
+    "anims": []
+  },
+  "gBowMonSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "AnimBowMon",
+    "anims": []
+  },
+  "gSlashSliceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLASH",
+    "paletteTag": "ANIM_TAG_SLASH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSlashSlice",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFalseSwipeSliceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLASH_2",
+    "paletteTag": "ANIM_TAG_SLASH_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFalseSwipeSlice",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFalseSwipePositionedSliceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLASH_2",
+    "paletteTag": "ANIM_TAG_SLASH_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFalseSwipePositionedSlice",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gEndureEnergySpriteTemplate": {
+    "tileTag": "ANIM_TAG_FOCUS_ENERGY",
+    "paletteTag": "ANIM_TAG_FOCUS_ENERGY",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimEndureEnergy",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 8,
+          "duration": 12
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 24,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gSharpenSphereSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPHERE_TO_CUBE",
+    "paletteTag": "ANIM_TAG_SPHERE_TO_CUBE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSharpenSphere",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 18
+        },
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 18
+        },
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 18
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 6
+        },
+        {
+          "tileOffset": 48,
+          "duration": 18
+        },
+        {
+          "tileOffset": 32,
+          "duration": 6
+        },
+        {
+          "tileOffset": 48,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 18
+        },
+        {
+          "tileOffset": 48,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 54
+        }
+      ]
+    ]
+  },
+  "gOctazookaBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLACK_BALL",
+    "paletteTag": "ANIM_TAG_BLACK_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gOctazookaSmokeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GRAY_SMOKE",
+    "paletteTag": "ANIM_TAG_GRAY_SMOKE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gConversionSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CONVERSION",
+    "paletteTag": "ANIM_TAG_CONVERSION",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimConversion",
+    "anims": [
+      [
+        {
+          "tileOffset": 3,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 1,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gConversion2SpriteTemplate": {
+    "tileTag": "ANIM_TAG_CONVERSION",
+    "paletteTag": "ANIM_TAG_CONVERSION",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimConversion2",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 1,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 3,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gMoonSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MOON",
+    "paletteTag": "ANIM_TAG_MOON",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimMoon",
+    "anims": []
+  },
+  "gMoonlightSparkleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GREEN_SPARKLE",
+    "paletteTag": "ANIM_TAG_GREEN_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMoonlightSparkle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 4,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        },
+        {
+          "tileOffset": 12,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gHealingBlueStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_STAR",
+    "paletteTag": "ANIM_TAG_BLUE_STAR",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 5
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 2
+        },
+        {
+          "tileOffset": 0,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gHornHitSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HORN_HIT",
+    "paletteTag": "ANIM_TAG_HORN_HIT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHornHit",
+    "anims": []
+  },
+  "gSuperFangSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FANG_ATTACK",
+    "paletteTag": "ANIM_TAG_FANG_ATTACK",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSuperFang",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gWavyMusicNotesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWavyMusicNotes",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 41
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ]
+    ]
+  },
+  "gFastFlyingMusicNotesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFlyingMusicNotes",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 41
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ]
+    ]
+  },
+  "gBellyDrumHandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_HAND_OUTLINE",
+    "paletteTag": "ANIM_TAG_PURPLE_HAND_OUTLINE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBellyDrumHand",
+    "anims": []
+  },
+  "gSlowFlyingMusicNotesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSlowFlyingMusicNotes",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 41
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ]
+    ]
+  },
+  "gThoughtBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THOUGHT_BUBBLE",
+    "paletteTag": "ANIM_TAG_THOUGHT_BUBBLE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimThoughtBubble",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 2
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 2
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 0,
+          "duration": 2
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 0,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gMetronomeFingerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FINGER",
+    "paletteTag": "ANIM_TAG_FINGER",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimMetronomeFinger",
+    "anims": []
+  },
+  "gFollowMeFingerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FINGER",
+    "paletteTag": "ANIM_TAG_FINGER",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFollowMeFinger",
+    "anims": []
+  },
+  "gTauntFingerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FINGER_2",
+    "paletteTag": "ANIM_TAG_FINGER_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimTauntFinger",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gKinesisZapEnergySpriteTemplate": {
+    "tileTag": "ANIM_TAG_ALERT",
+    "paletteTag": "ANIM_TAG_ALERT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimKinesisZapEnergy",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 8,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 24,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 40,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gSwordsDanceBladeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SWORD",
+    "paletteTag": "ANIM_TAG_SWORD",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x64",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "callback": "AnimSwordsDanceBlade",
+    "anims": []
+  },
+  "gSonicBoomSpriteTemplate": {
+    "tileTag": "ANIM_TAG_AIR_WAVE",
+    "paletteTag": "ANIM_TAG_AIR_WAVE",
+    "oam": "gOamData_AffineDouble_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimSonicBoomProjectile",
+    "anims": []
+  },
+  "gAirWaveProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_AIR_WAVE",
+    "paletteTag": "ANIM_TAG_AIR_WAVE",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimAirWaveProjectile",
+    "anims": []
+  },
+  "gSupersonicRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GOLD_RING",
+    "paletteTag": "ANIM_TAG_GOLD_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gScreechRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_RING",
+    "paletteTag": "ANIM_TAG_PURPLE_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gMetalSoundSpriteTemplate": {
+    "tileTag": "ANIM_TAG_METAL_SOUND_WAVES",
+    "paletteTag": "ANIM_TAG_METAL_SOUND_WAVES",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x64",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gWaterPulseRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_RING_2",
+    "paletteTag": "ANIM_TAG_BLUE_RING_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimWaterPulseRing",
+    "anims": []
+  },
+  "gEggThrowSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LARGE_FRESH_EGG",
+    "paletteTag": "ANIM_TAG_LARGE_FRESH_EGG",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimThrowProjectile",
+    "anims": []
+  },
+  "gCoinThrowSpriteTemplate": {
+    "tileTag": "ANIM_TAG_COIN",
+    "paletteTag": "ANIM_TAG_COIN",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimCoinThrow",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gFallingCoinSpriteTemplate": {
+    "tileTag": "ANIM_TAG_COIN",
+    "paletteTag": "ANIM_TAG_COIN",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimFallingCoin",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gBulletSeedSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SEED",
+    "paletteTag": "ANIM_TAG_SEED",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimBulletSeed",
+    "anims": []
+  },
+  "gRazorWindTornadoSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x64",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "callback": "AnimRazorWindTornado",
+    "anims": []
+  },
+  "gViceGripSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimViceGripPincer",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 20
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 20
+        }
+      ]
+    ]
+  },
+  "gGuillotineSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CUT",
+    "paletteTag": "ANIM_TAG_CUT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimGuillotinePincer",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gBreathPuffSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BREATH",
+    "paletteTag": "ANIM_TAG_BREATH",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimBreathPuff",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 4,
+          "duration": 40
+        },
+        {
+          "tileOffset": 8,
+          "duration": 4
+        },
+        {
+          "tileOffset": 12,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 4,
+          "duration": 40
+        },
+        {
+          "tileOffset": 8,
+          "duration": 4
+        },
+        {
+          "tileOffset": 12,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gAngerMarkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ANGER",
+    "paletteTag": "ANIM_TAG_ANGER",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimAngerMark",
+    "anims": []
+  },
+  "gPencilSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PENCIL",
+    "paletteTag": "ANIM_TAG_PENCIL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimPencil",
+    "anims": []
+  },
+  "gSnoreZSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SNORE_Z",
+    "paletteTag": "ANIM_TAG_SNORE_Z",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimTravelDiagonally",
+    "anims": []
+  },
+  "gExplosionSpriteTemplate": {
+    "tileTag": "ANIM_TAG_EXPLOSION",
+    "paletteTag": "ANIM_TAG_EXPLOSION",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gSoftBoiledEggSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BREAKING_EGG",
+    "paletteTag": "ANIM_TAG_BREAKING_EGG",
+    "oam": "gOamData_AffineDouble_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSoftBoiledEgg",
+    "anims": []
+  },
+  "gThinRingExpandingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": []
+  },
+  "gThinRingShrinkingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": []
+  },
+  "gBlendThinRingExpandingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBlendThinRing",
+    "anims": []
+  },
+  "gHyperVoiceRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimHyperVoiceRing",
+    "anims": []
+  },
+  "gUproarRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_THIN_RING",
+    "paletteTag": "ANIM_TAG_THIN_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimUproarRing",
+    "anims": []
+  },
+  "gSpeedDustSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPEED_DUST",
+    "paletteTag": "ANIM_TAG_SPEED_DUST",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSpeedDust",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 4,
+          "duration": 3
+        },
+        {
+          "tileOffset": 8,
+          "duration": 3
+        },
+        {
+          "tileOffset": 4,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gBellSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BELL",
+    "paletteTag": "ANIM_TAG_BELL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 15
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 15
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 15
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 0,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gHealBellMusicNoteSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimHealBellMusicNote",
+    "anims": []
+  },
+  "gMagentaHeartSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MAGENTA_HEART",
+    "paletteTag": "ANIM_TAG_MAGENTA_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMagentaHeart",
+    "anims": []
+  },
+  "gRedHeartProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimRedHeartProjectile",
+    "anims": []
+  },
+  "gRedHeartBurstSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimParticleBurst",
+    "anims": []
+  },
+  "gRedHeartRisingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_HEART",
+    "paletteTag": "ANIM_TAG_RED_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimRedHeartRising",
+    "anims": []
+  },
+  "gHiddenPowerOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_ORB",
+    "paletteTag": "ANIM_TAG_RED_ORB",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimOrbitFast",
+    "anims": []
+  },
+  "gHiddenPowerOrbScatterSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_ORB",
+    "paletteTag": "ANIM_TAG_RED_ORB",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimOrbitScatter",
+    "anims": []
+  },
+  "gSpitUpOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_ORB_2",
+    "paletteTag": "ANIM_TAG_RED_ORB_2",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSpitUpOrb",
+    "anims": []
+  },
+  "gEyeSparkleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_EYE_SPARKLE",
+    "paletteTag": "ANIM_TAG_EYE_SPARKLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimEyeSparkle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 4,
+          "duration": 4
+        },
+        {
+          "tileOffset": 8,
+          "duration": 4
+        },
+        {
+          "tileOffset": 4,
+          "duration": 4
+        },
+        {
+          "tileOffset": 0,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gAngelSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ANGEL",
+    "paletteTag": "ANIM_TAG_ANGEL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimAngel",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 24
+        }
+      ]
+    ]
+  },
+  "gPinkHeartSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PINK_HEART",
+    "paletteTag": "ANIM_TAG_PINK_HEART",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPinkHeart",
+    "anims": []
+  },
+  "gDevilSpriteTemplate": {
+    "tileTag": "ANIM_TAG_DEVIL",
+    "paletteTag": "ANIM_TAG_DEVIL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimDevil",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gFurySwipesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SWIPE",
+    "paletteTag": "ANIM_TAG_SWIPE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFurySwipes",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gMovementWavesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MOVEMENT_WAVES",
+    "paletteTag": "ANIM_TAG_MOVEMENT_WAVES",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimMovementWaves",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 16,
+          "duration": 8
+        },
+        {
+          "tileOffset": 32,
+          "duration": 8
+        },
+        {
+          "tileOffset": 16,
+          "duration": 8
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 8
+        },
+        {
+          "tileOffset": 32,
+          "duration": 8
+        },
+        {
+          "tileOffset": 16,
+          "duration": 8
+        },
+        {
+          "tileOffset": 0,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gJaggedMusicNoteSpriteTemplate": {
+    "tileTag": "ANIM_TAG_JAGGED_MUSIC_NOTE",
+    "paletteTag": "ANIM_TAG_JAGGED_MUSIC_NOTE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimJaggedMusicNote",
+    "anims": []
+  },
+  "gPerishSongMusicNoteSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPerishSongMusicNote",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 41
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ]
+    ]
+  },
+  "gPerishSongMusicNote2SpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "paletteTag": "ANIM_TAG_MUSIC_NOTES_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPerishSongMusicNote2",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 41
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 10
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 10
+        }
+      ]
+    ]
+  },
+  "gGuardRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GUARD_RING",
+    "paletteTag": "ANIM_TAG_GUARD_RING",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x32",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "callback": "AnimGuardRing",
+    "anims": []
+  },
+  "gScratchSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SCRATCH",
+    "paletteTag": "ANIM_TAG_SCRATCH",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gBlackSmokeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLACK_SMOKE",
+    "paletteTag": "ANIM_TAG_BLACK_SMOKE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimBlackSmoke",
+    "anims": []
+  },
+  "gBlackBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLACK_BALL",
+    "paletteTag": "ANIM_TAG_BLACK_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimThrowProjectile",
+    "anims": []
+  },
+  "gOpeningEyeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_OPENING_EYE",
+    "paletteTag": "ANIM_TAG_OPENING_EYE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 40
+        },
+        {
+          "tileOffset": 16,
+          "duration": 8
+        },
+        {
+          "tileOffset": 32,
+          "duration": 40
+        }
+      ]
+    ]
+  },
+  "gWhiteHaloSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_WHITE_HALO",
+    "paletteTag": "ANIM_TAG_ROUND_WHITE_HALO",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimWhiteHalo",
+    "anims": []
+  },
+  "gTealAlertSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TEAL_ALERT",
+    "paletteTag": "ANIM_TAG_TEAL_ALERT",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimTealAlert",
+    "anims": []
+  },
+  "gMeanLookEyeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_EYE",
+    "paletteTag": "ANIM_TAG_EYE",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimMeanLookEye",
+    "anims": []
+  },
+  "gSpikesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPIKES",
+    "paletteTag": "ANIM_TAG_SPIKES",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSpikes",
+    "anims": []
+  },
+  "gLeerSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LEER",
+    "paletteTag": "ANIM_TAG_LEER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLeer",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gLetterZSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LETTER_Z",
+    "paletteTag": "ANIM_TAG_LETTER_Z",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLetterZ",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gFangSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FANG_ATTACK",
+    "paletteTag": "ANIM_TAG_FANG_ATTACK",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFang",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 16,
+          "duration": 16
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gSpotlightSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPOTLIGHT",
+    "paletteTag": "ANIM_TAG_SPOTLIGHT",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpotlight",
+    "anims": []
+  },
+  "gClappingHandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimClappingHand",
+    "anims": []
+  },
+  "gClappingHand2SpriteTemplate": {
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimClappingHand2",
+    "anims": []
+  },
+  "gRapidSpinSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RAPID_SPIN",
+    "paletteTag": "ANIM_TAG_RAPID_SPIN",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimRapidSpin",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 8,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gTriAttackTriangleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE",
+    "paletteTag": "ANIM_TAG_TRI_ATTACK_TRIANGLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimTriAttackTriangle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gEclipsingOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ECLIPSING_ORB",
+    "paletteTag": "ANIM_TAG_ECLIPSING_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gBatonPassPokeballSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POKEBALL",
+    "paletteTag": "ANIM_TAG_POKEBALL",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimBatonPassPokeball",
+    "anims": []
+  },
+  "gWishStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWishStar",
+    "anims": []
+  },
+  "gMiniTwinklingStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimMiniTwinklingStar",
+    "anims": []
+  },
+  "gSwallowBlueOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_ORB",
+    "paletteTag": "ANIM_TAG_BLUE_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSwallowBlueOrb",
+    "anims": []
+  },
+  "gGreenStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GREEN_STAR",
+    "paletteTag": "ANIM_TAG_GREEN_STAR",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimGreenStar",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 4,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 12,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gWeakFrustrationAngerMarkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ANGER",
+    "paletteTag": "ANIM_TAG_ANGER",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWeakFrustrationAngerMark",
+    "anims": []
+  },
+  "gSweetScentPetalSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PINK_PETAL",
+    "paletteTag": "ANIM_TAG_PINK_PETAL",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSweetScentPetal",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 1,
+          "duration": 8
+        },
+        {
+          "tileOffset": 2,
+          "duration": 8
+        },
+        {
+          "tileOffset": 3,
+          "duration": 8
+        },
+        {
+          "tileOffset": 3,
+          "duration": 8
+        },
+        {
+          "tileOffset": 2,
+          "duration": 8
+        },
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 1,
+          "duration": 8
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 1,
+          "duration": 8
+        },
+        {
+          "tileOffset": 2,
+          "duration": 8
+        },
+        {
+          "tileOffset": 3,
+          "duration": 8
+        },
+        {
+          "tileOffset": 3,
+          "duration": 8
+        },
+        {
+          "tileOffset": 2,
+          "duration": 8
+        },
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 1,
+          "duration": 8
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gPainSplitProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PAIN_SPLIT",
+    "paletteTag": "ANIM_TAG_PAIN_SPLIT",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimPainSplitProjectile",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 9
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gFlatterConfettiSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CONFETTI",
+    "paletteTag": "ANIM_TAG_CONFETTI",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimFlatterConfetti",
+    "anims": []
+  },
+  "gFlatterSpotlightSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPOTLIGHT",
+    "paletteTag": "ANIM_TAG_SPOTLIGHT",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimFlatterSpotlight",
+    "anims": []
+  },
+  "gReversalOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_ORB",
+    "paletteTag": "ANIM_TAG_BLUE_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimReversalOrb",
+    "anims": []
+  },
+  "gYawnCloudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PINK_CLOUD",
+    "paletteTag": "ANIM_TAG_PINK_CLOUD",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimYawnCloud",
+    "anims": []
+  },
+  "gSmokeBallEscapeCloudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PINK_CLOUD",
+    "paletteTag": "ANIM_TAG_PINK_CLOUD",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSmokeBallEscapeCloud",
+    "anims": []
+  },
+  "gFacadeSweatDropSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SWEAT_DROP",
+    "paletteTag": "ANIM_TAG_SWEAT_DROP",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimFacadeSweatDrop",
+    "anims": []
+  },
+  "gRoarNoiseLineSpriteTemplate": {
+    "tileTag": "ANIM_TAG_NOISE_LINE",
+    "paletteTag": "ANIM_TAG_NOISE_LINE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRoarNoiseLine",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gGlareEyeDotSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_RED_EYE",
+    "paletteTag": "ANIM_TAG_SMALL_RED_EYE",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimGlareEyeDot",
+    "anims": []
+  },
+  "gAssistPawprintSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PAW_PRINT",
+    "paletteTag": "ANIM_TAG_PAW_PRINT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimAssistPawprint",
+    "anims": []
+  },
+  "gBarrageBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_BALL",
+    "paletteTag": "ANIM_TAG_RED_BALL",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "SpriteCallbackDummy",
+    "anims": []
+  },
+  "gSmellingSaltsHandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSmellingSaltsHand",
+    "anims": []
+  },
+  "gSmellingSaltExclamationSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMELLINGSALT_EFFECT",
+    "paletteTag": "ANIM_TAG_SMELLINGSALT_EFFECT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSmellingSaltExclamation",
+    "anims": []
+  },
+  "gHelpingHandClapSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TAG_HAND",
+    "paletteTag": "ANIM_TAG_TAG_HAND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHelpingHandClap",
+    "anims": []
+  },
+  "gForesightMagnifyingGlassSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MAGNIFYING_GLASS",
+    "paletteTag": "ANIM_TAG_MAGNIFYING_GLASS",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimForesightMagnifyingGlass",
+    "anims": []
+  },
+  "gMeteorMashStarSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GOLD_STARS",
+    "paletteTag": "ANIM_TAG_GOLD_STARS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMeteorMashStar",
+    "anims": []
+  },
+  "gBlockXSpriteTemplate": {
+    "tileTag": "ANIM_TAG_X_SIGN",
+    "paletteTag": "ANIM_TAG_X_SIGN",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBlockX",
+    "anims": []
+  },
+  "gKnockOffStrikeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SLAM_HIT_2",
+    "paletteTag": "ANIM_TAG_SLAM_HIT_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimKnockOffStrike",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gRecycleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RECYCLE",
+    "paletteTag": "ANIM_TAG_RECYCLE",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimRecycle",
+    "anims": []
+  },
+  "gLightningSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LIGHTNING",
+    "paletteTag": "ANIM_TAG_LIGHTNING",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLightning",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 8
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        },
+        {
+          "tileOffset": 64,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gSparkElectricitySpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSparkElectricity",
+    "anims": []
+  },
+  "gZapCannonBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLACK_BALL_2",
+    "paletteTag": "ANIM_TAG_BLACK_BALL_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gZapCannonSparkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimZapCannonSpark",
+    "anims": []
+  },
+  "gThunderboltOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SHOCK_3",
+    "paletteTag": "ANIM_TAG_SHOCK_3",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimThunderboltOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gSparkElectricityFlashingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSparkElectricityFlashing",
+    "anims": []
+  },
+  "gElectricitySpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK_2",
+    "paletteTag": "ANIM_TAG_SPARK_2",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimElectricity",
+    "anims": []
+  },
+  "gElectricBoltSegmentSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK",
+    "paletteTag": "ANIM_TAG_SPARK",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimElectricBoltSegment",
+    "anims": []
+  },
+  "gThunderWaveSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK_H",
+    "paletteTag": "ANIM_TAG_SPARK_H",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimThunderWave",
+    "anims": []
+  },
+  "gElectricChargingParticlesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ELECTRIC_ORBS",
+    "paletteTag": "ANIM_TAG_ELECTRIC_ORBS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "SpriteCallbackDummy",
+    "anims": [
+      [
+        {
+          "tileOffset": 3,
+          "duration": 1
+        },
+        {
+          "tileOffset": 2,
+          "duration": 1
+        },
+        {
+          "tileOffset": 1,
+          "duration": 1
+        },
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 1,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 3,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gGrowingChargeOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimGrowingChargeOrb",
+    "anims": []
+  },
+  "gElectricPuffSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ELECTRICITY",
+    "paletteTag": "ANIM_TAG_ELECTRICITY",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimElectricPuff",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gVoltTackleOrbSlideSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimVoltTackleOrbSlide",
+    "anims": []
+  },
+  "gVoltTackleBoltSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK",
+    "paletteTag": "ANIM_TAG_SPARK",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimVoltTackleBolt",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 2,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 3
+        }
+      ],
+      [
+        {
+          "tileOffset": 6,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gGrowingShockWaveOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimGrowingShockWaveOrb",
+    "anims": []
+  },
+  "gShockWaveProgressingBoltSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARK",
+    "paletteTag": "ANIM_TAG_SPARK",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimShockWaveProgressingBolt",
+    "anims": []
+  },
+  "gKarateChopSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSlideHandOrFootToTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gJumpKickSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimJumpKick",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gFistFootSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBasicFistOrFoot",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gFistFootRandomPosSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFistOrFootRandomPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gCrossChopHandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimCrossChopHand",
+    "anims": []
+  },
+  "gSlidingKickSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSlidingKick",
+    "anims": []
+  },
+  "gSpinningHandOrFootSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpinningKickOrPunch",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gMegaPunchKickSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpinningKickOrPunch",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gStompFootSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimStompFoot",
+    "anims": []
+  },
+  "gDizzyPunchDuckSpriteTemplate": {
+    "tileTag": "ANIM_TAG_DUCK",
+    "paletteTag": "ANIM_TAG_DUCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimDizzyPunchDuck",
+    "anims": []
+  },
+  "gBrickBreakWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBrickBreakWall",
+    "anims": []
+  },
+  "gBrickBreakWallShardSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TORN_METAL",
+    "paletteTag": "ANIM_TAG_TORN_METAL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBrickBreakWallShard",
+    "anims": []
+  },
+  "gSuperpowerOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSuperpowerOrb",
+    "anims": []
+  },
+  "gSuperpowerRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLAT_ROCK",
+    "paletteTag": "ANIM_TAG_FLAT_ROCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSuperpowerRock",
+    "anims": []
+  },
+  "gSuperpowerFireballSpriteTemplate": {
+    "tileTag": "ANIM_TAG_METEOR",
+    "paletteTag": "ANIM_TAG_METEOR",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSuperpowerFireball",
+    "anims": []
+  },
+  "gArmThrustHandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimArmThrustHit",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRevengeSmallScratchSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_SCRATCH",
+    "paletteTag": "ANIM_TAG_PURPLE_SCRATCH",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRevengeScratch",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gRevengeBigScratchSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_SWIPE",
+    "paletteTag": "ANIM_TAG_PURPLE_SWIPE",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimRevengeScratch",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 6
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gFocusPunchFistSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HANDS_AND_FEET",
+    "paletteTag": "ANIM_TAG_HANDS_AND_FEET",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFocusPunchFist",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gFireSpiralInwardSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFireSpiralInward",
+    "anims": [
+      [
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFireSpreadSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFireSpread",
+    "anims": [
+      [
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gLargeFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FIRE",
+    "paletteTag": "ANIM_TAG_FIRE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLargeFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gLargeFlameScatterSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FIRE",
+    "paletteTag": "ANIM_TAG_FIRE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimLargeFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        },
+        {
+          "tileOffset": 80,
+          "duration": 3
+        },
+        {
+          "tileOffset": 96,
+          "duration": 3
+        },
+        {
+          "tileOffset": 112,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gFirePlumeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FIRE_PLUME",
+    "paletteTag": "ANIM_TAG_FIRE_PLUME",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFirePlume",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        },
+        {
+          "tileOffset": 64,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gSunlightRaySpriteTemplate": {
+    "tileTag": "ANIM_TAG_SUNLIGHT",
+    "paletteTag": "ANIM_TAG_SUNLIGHT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSunlight",
+    "anims": []
+  },
+  "gEmberSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gEmberFlareSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimEmberFlare",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gBurnFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBurnFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFireBlastRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFireRing",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFireBlastCrossSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFireCross",
+    "anims": [
+      [
+        {
+          "tileOffset": 32,
+          "duration": 6
+        },
+        {
+          "tileOffset": 48,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gFireSpiralOutwardSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFireSpiralOutward",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gWeatherBallFireDownSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWeatherBallDown",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gEruptionLaunchRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WARM_ROCK",
+    "paletteTag": "ANIM_TAG_WARM_ROCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimEruptionLaunchRock",
+    "anims": []
+  },
+  "gEruptionFallingRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WARM_ROCK",
+    "paletteTag": "ANIM_TAG_WARM_ROCK",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimEruptionFallingRock",
+    "anims": []
+  },
+  "gWillOWispOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WISP_ORB",
+    "paletteTag": "ANIM_TAG_WISP_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWillOWispOrb",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 5
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 5
+        }
+      ],
+      [
+        {
+          "tileOffset": 20,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gWillOWispFireSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WISP_FIRE",
+    "paletteTag": "ANIM_TAG_WISP_FIRE",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWillOWispFire",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 32,
+          "duration": 5
+        },
+        {
+          "tileOffset": 48,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gEllipticalGustSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineOff_ObjNormal_32x64",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "callback": "AnimEllipticalGust",
+    "anims": []
+  },
+  "gGustToTargetSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GUST",
+    "paletteTag": "ANIM_TAG_GUST",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x64",
+    "frameWidth": 32,
+    "frameHeight": 64,
+    "callback": "AnimGustToTarget",
+    "anims": []
+  },
+  "gAirWaveCrescentSpriteTemplate": {
+    "tileTag": "ANIM_TAG_AIR_WAVE_2",
+    "paletteTag": "ANIM_TAG_AIR_WAVE_2",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimAirWaveCrescent",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gFlyBallUpSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimFlyBallUp",
+    "anims": []
+  },
+  "gFlyBallAttackSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineNormal_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimFlyBallAttack",
+    "anims": []
+  },
+  "gFallingFeatherSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WHITE_FEATHER",
+    "paletteTag": "ANIM_TAG_WHITE_FEATHER",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFallingFeather",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 0
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 0
+        }
+      ]
+    ]
+  },
+  "gWhirlwindLineSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WHIRLWIND_LINES",
+    "paletteTag": "ANIM_TAG_WHIRLWIND_LINES",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimWhirlwindLine",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 16,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gBounceBallShrinkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBounceBallShrink",
+    "anims": []
+  },
+  "gBounceBallLandSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimBounceBallLand",
+    "anims": []
+  },
+  "gDiveBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROUND_SHADOW",
+    "paletteTag": "ANIM_TAG_ROUND_SHADOW",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDiveBall",
+    "anims": []
+  },
+  "gDiveWaterSplashSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPLASH",
+    "paletteTag": "ANIM_TAG_SPLASH",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDiveWaterSplash",
+    "anims": []
+  },
+  "gSprayWaterDropletSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SWEAT_BEAD",
+    "paletteTag": "ANIM_TAG_SWEAT_BEAD",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSprayWaterDroplet",
+    "anims": []
+  },
+  "gSkyAttackBirdSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BIRD",
+    "paletteTag": "ANIM_TAG_BIRD",
+    "oam": "gOamData_AffineDouble_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSkyAttackBird",
+    "anims": []
+  },
+  "gConfuseRayBallBounceSpriteTemplate": {
+    "tileTag": "ANIM_TAG_YELLOW_BALL",
+    "paletteTag": "ANIM_TAG_YELLOW_BALL",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimConfuseRayBallBounce",
+    "anims": []
+  },
+  "gConfuseRayBallSpiralSpriteTemplate": {
+    "tileTag": "ANIM_TAG_YELLOW_BALL",
+    "paletteTag": "ANIM_TAG_YELLOW_BALL",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimConfuseRayBallSpiral",
+    "anims": []
+  },
+  "gShadowBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SHADOW_BALL",
+    "paletteTag": "ANIM_TAG_SHADOW_BALL",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimShadowBall",
+    "anims": []
+  },
+  "gLickSpriteTemplate": {
+    "tileTag": "ANIM_TAG_LICK",
+    "paletteTag": "ANIM_TAG_LICK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimLick",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 8,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 24,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gDestinyBondWhiteShadowSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WHITE_SHADOW",
+    "paletteTag": "ANIM_TAG_WHITE_SHADOW",
+    "oam": "gOamData_AffineOff_ObjBlend_64x32",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "callback": "AnimDestinyBondWhiteShadow",
+    "anims": []
+  },
+  "gCurseNailSpriteTemplate": {
+    "tileTag": "ANIM_TAG_NAIL",
+    "paletteTag": "ANIM_TAG_NAIL",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimCurseNail",
+    "anims": []
+  },
+  "gCurseGhostSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GHOSTLY_SPIRIT",
+    "paletteTag": "ANIM_TAG_GHOSTLY_SPIRIT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimGhostStatusSprite",
+    "anims": []
+  },
+  "gNightmareDevilSpriteTemplate": {
+    "tileTag": "ANIM_TAG_DEVIL",
+    "paletteTag": "ANIM_TAG_DEVIL",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimGhostStatusSprite",
+    "anims": []
+  },
+  "gGrudgeFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_FLAME",
+    "paletteTag": "ANIM_TAG_PURPLE_FLAME",
+    "oam": "gOamData_AffineOff_ObjBlend_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimGrudgeFlame",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 8,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 24,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gBonemerangSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BONE",
+    "paletteTag": "ANIM_TAG_BONE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBonemerangProjectile",
+    "anims": []
+  },
+  "gSpinningBoneSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BONE",
+    "paletteTag": "ANIM_TAG_BONE",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimBoneHitProjectile",
+    "anims": []
+  },
+  "gSandAttackDirtSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimDirtScatter",
+    "anims": []
+  },
+  "gMudSlapMudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimDirtScatter",
+    "anims": [
+      [
+        {
+          "tileOffset": 1,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gMudsportMudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMudSportDirt",
+    "anims": []
+  },
+  "gDirtPlumeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimDirtPlumeParticle",
+    "anims": []
+  },
+  "gDirtMoundSpriteTemplate": {
+    "tileTag": "ANIM_TAG_DIRT_MOUND",
+    "paletteTag": "ANIM_TAG_DIRT_MOUND",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimDigDirtMound",
+    "anims": []
+  },
+  "gIceCrystalSpiralInwardLarge": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineDouble_ObjBlend_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimIcePunchSwirlingParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceCrystalSpiralInwardSmall": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjBlend_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimIcePunchSwirlingParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceBeamInnerCrystalSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimIceBeamParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceBeamOuterCrystalSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjBlend_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimIceBeamParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceCrystalHitLargeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimIceEffectParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceCrystalHitSmallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineNormal_ObjBlend_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimIceEffectParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSwirlingSnowballSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSwirlingSnowball",
+    "anims": [
+      [
+        {
+          "tileOffset": 7,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gBlizzardIceCrystalSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimMoveParticleBeyondTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gPowderSnowSnowballSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimMoveParticleBeyondTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 7,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gIceGroundSpikeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_SPIKES",
+    "paletteTag": "ANIM_TAG_ICE_SPIKES",
+    "oam": "gOamData_AffineOff_ObjBlend_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimWaveFromCenterOfTarget",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 6,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 2,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gMistCloudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MIST_CLOUD",
+    "paletteTag": "ANIM_TAG_MIST_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "InitSwirlingFogAnim",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gSmogCloudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "paletteTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "InitSwirlingFogAnim",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gMistBallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimThrowMistBall",
+    "anims": []
+  },
+  "gPoisonGasCloudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "paletteTag": "ANIM_TAG_PURPLE_GAS_CLOUD",
+    "oam": "gOamData_AffineOff_ObjBlend_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "InitPoisonGasCloudAnim",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gHailParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HAIL",
+    "paletteTag": "ANIM_TAG_HAIL",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimHailBegin",
+    "anims": []
+  },
+  "gWeatherBallIceDownSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HAIL",
+    "paletteTag": "ANIM_TAG_HAIL",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWeatherBallDown",
+    "anims": []
+  },
+  "gIceBallChunkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CHUNK",
+    "paletteTag": "ANIM_TAG_ICE_CHUNK",
+    "oam": "gOamData_AffineDouble_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "InitIceBallAnim",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gIceBallImpactShardSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "InitIceBallParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 6,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gHorizontalLungeSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "DoHorizontalLunge",
+    "anims": []
+  },
+  "gVerticalDipSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "DoVerticalDip",
+    "anims": []
+  },
+  "gSlideMonToOriginalPosSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "SlideMonToOriginalPos",
+    "anims": []
+  },
+  "gSlideMonToOffsetSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "SlideMonToOffset",
+    "anims": []
+  },
+  "gSlideMonToOffsetAndBackSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "SlideMonToOffsetAndBack",
+    "anims": []
+  },
+  "gConfusionDuckSpriteTemplate": {
+    "tileTag": "ANIM_TAG_DUCK",
+    "paletteTag": "ANIM_TAG_DUCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimConfusionDuck",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 4,
+          "duration": 8
+        },
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        }
+      ],
+      [
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 4,
+          "duration": 8
+        },
+        {
+          "tileOffset": 0,
+          "duration": 8
+        },
+        {
+          "tileOffset": 8,
+          "duration": 8
+        }
+      ]
+    ]
+  },
+  "gSimplePaletteBlendSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "AnimSimplePaletteBlend",
+    "anims": []
+  },
+  "gComplexPaletteBlendSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "AnimComplexPaletteBlend",
+    "anims": []
+  },
+  "gShakeMonOrPlatformSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "AnimShakeMonOrBattlePlatforms",
+    "anims": []
+  },
+  "gBasicHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatBasic",
+    "anims": []
+  },
+  "gHandleInvertHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatHandleInvert",
+    "anims": []
+  },
+  "gWaterHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WATER_IMPACT",
+    "paletteTag": "ANIM_TAG_WATER_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatBasic",
+    "anims": []
+  },
+  "gRandomPosHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatRandom",
+    "anims": []
+  },
+  "gMonEdgeHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatOnMonEdge",
+    "anims": []
+  },
+  "gCrossImpactSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CROSS_IMPACT",
+    "paletteTag": "ANIM_TAG_CROSS_IMPACT",
+    "oam": "gOamData_AffineOff_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimCrossImpact",
+    "anims": []
+  },
+  "gFlashingHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFlashingHitSplat",
+    "anims": []
+  },
+  "gPersistHitSplatSpriteTemplate": {
+    "tileTag": "ANIM_TAG_IMPACT",
+    "paletteTag": "ANIM_TAG_IMPACT",
+    "oam": "gOamData_AffineNormal_ObjBlend_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimHitSplatPersistent",
+    "anims": []
+  },
+  "gToxicBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_TOXIC_BUBBLE",
+    "paletteTag": "ANIM_TAG_TOXIC_BUBBLE",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 24,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gSludgeProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSludgeProjectile",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gAcidPoisonBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimAcidPoisonBubble",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSludgeBombHitParticleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSludgeBombHitParticle",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gAcidPoisonDropletSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimAcidPoisonDroplet",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gPoisonBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POISON_BUBBLE",
+    "paletteTag": "ANIM_TAG_POISON_BUBBLE",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimBubbleEffect",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gWaterBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimBubbleEffect",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gPsychUpSpiralSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPIRAL",
+    "paletteTag": "ANIM_TAG_SPIRAL",
+    "oam": "gOamData_AffineNormal_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": []
+  },
+  "gLightScreenWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GREEN_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_GREEN_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDefensiveWall",
+    "anims": []
+  },
+  "gReflectWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_BLUE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDefensiveWall",
+    "anims": []
+  },
+  "gMirrorCoatWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RED_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_RED_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDefensiveWall",
+    "anims": []
+  },
+  "gBarrierWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GRAY_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_GRAY_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDefensiveWall",
+    "anims": []
+  },
+  "gMagicCoatWallSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ORANGE_LIGHT_WALL",
+    "paletteTag": "ANIM_TAG_ORANGE_LIGHT_WALL",
+    "oam": "gOamData_AffineOff_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimDefensiveWall",
+    "anims": []
+  },
+  "gReflectSparkleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_4",
+    "paletteTag": "ANIM_TAG_SPARKLE_4",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWallSparkle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gSpecialScreenSparkleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_3",
+    "paletteTag": "ANIM_TAG_SPARKLE_3",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWallSparkle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 12,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gGoldRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GOLD_RING",
+    "paletteTag": "ANIM_TAG_GOLD_RING",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "TranslateAnimSpriteToTargetMonLocation",
+    "anims": []
+  },
+  "gBentSpoonSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BENT_SPOON",
+    "paletteTag": "ANIM_TAG_BENT_SPOON",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimBentSpoon",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 60
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 22
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 22
+        },
+        {
+          "tileOffset": 24,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 40,
+          "duration": 22
+        }
+      ],
+      [
+        {
+          "tileOffset": 8,
+          "duration": 60
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 22
+        },
+        {
+          "tileOffset": 16,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 0,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 22
+        },
+        {
+          "tileOffset": 24,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 40,
+          "duration": 22
+        }
+      ]
+    ]
+  },
+  "gQuestionMarkSpriteTemplate": {
+    "tileTag": "ANIM_TAG_AMNESIA",
+    "paletteTag": "ANIM_TAG_AMNESIA",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimQuestionMark",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 6
+        },
+        {
+          "tileOffset": 16,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 6
+        },
+        {
+          "tileOffset": 48,
+          "duration": 6
+        },
+        {
+          "tileOffset": 64,
+          "duration": 6
+        },
+        {
+          "tileOffset": 80,
+          "duration": 6
+        },
+        {
+          "tileOffset": 96,
+          "duration": 18
+        }
+      ]
+    ]
+  },
+  "gImprisonOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_HOLLOW_ORB",
+    "paletteTag": "ANIM_TAG_HOLLOW_ORB",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "SpriteCallbackDummy",
+    "anims": []
+  },
+  "gRedXSpriteTemplate": {
+    "tileTag": "ANIM_TAG_X_SIGN",
+    "paletteTag": "ANIM_TAG_X_SIGN",
+    "oam": "gOamData_AffineOff_ObjNormal_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimRedX",
+    "anims": []
+  },
+  "gSkillSwapOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUEGREEN_ORB",
+    "paletteTag": "ANIM_TAG_BLUEGREEN_ORB",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimSkillSwapOrb",
+    "anims": []
+  },
+  "gLusterPurgeCircleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimSpriteOnMonPos",
+    "anims": []
+  },
+  "gPsychoBoostOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "paletteTag": "ANIM_TAG_CIRCLE_OF_LIGHT",
+    "oam": "gOamData_AffineDouble_ObjBlend_64x64",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "callback": "AnimPsychoBoost",
+    "anims": []
+  },
+  "gFallingRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimFallingRock",
+    "anims": [
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRockFragmentSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRockFragment",
+    "anims": [
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSwirlingDirtSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimParticleInVortex",
+    "anims": []
+  },
+  "gWhirlpoolSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WATER_ORB",
+    "paletteTag": "ANIM_TAG_WATER_ORB",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimParticleInVortex",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 12,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gFireSpinSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimParticleInVortex",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 4
+        },
+        {
+          "tileOffset": 16,
+          "duration": 4
+        },
+        {
+          "tileOffset": 32,
+          "duration": 4
+        },
+        {
+          "tileOffset": 48,
+          "duration": 4
+        },
+        {
+          "tileOffset": 64,
+          "duration": 4
+        }
+      ]
+    ]
+  },
+  "gFlyingSandCrescentSpriteTemplate": {
+    "tileTag": "ANIM_TAG_FLYING_DIRT",
+    "paletteTag": "ANIM_TAG_FLYING_DIRT",
+    "oam": "gOamData_AffineOff_ObjNormal_32x16",
+    "frameWidth": 32,
+    "frameHeight": 16,
+    "callback": "AnimFlyingSandCrescent",
+    "anims": []
+  },
+  "gAncientPowerRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRaiseSprite",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 80,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRolloutMudSpriteTemplate": {
+    "tileTag": "ANIM_TAG_MUD_SAND",
+    "paletteTag": "ANIM_TAG_MUD_SAND",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimRolloutParticle",
+    "anims": []
+  },
+  "gRolloutRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRolloutParticle",
+    "anims": []
+  },
+  "gRockTombRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRockTomb",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 80,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRockBlastRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRockBlastRock",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 80,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gRockScatterSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimRockScatter",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 16,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 32,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 48,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 80,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gTwisterRockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimMoveTwisterParticle",
+    "anims": []
+  },
+  "gWeatherBallRockDownSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineNormal_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWeatherBallDown",
+    "anims": []
+  },
+  "gSpriteTemplate_EnemyShadow": {
+    "tileTag": "GFXTAG_SHADOW",
+    "paletteTag": "PALTAG_SHADOW",
+    "oam": "sOamData_EnemyShadow",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "SpriteCB_SetInvisible",
+    "anims": []
+  },
+  "gWeatherBallUpSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WEATHER_BALL",
+    "paletteTag": "ANIM_TAG_WEATHER_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWeatherBallUp",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gWeatherBallNormalDownSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WEATHER_BALL",
+    "paletteTag": "ANIM_TAG_WEATHER_BALL",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimWeatherBallDown",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gSpinningSparkleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SPARKLE_4",
+    "paletteTag": "ANIM_TAG_SPARKLE_4",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimSpinningSparkle",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 3
+        },
+        {
+          "tileOffset": 16,
+          "duration": 3
+        },
+        {
+          "tileOffset": 32,
+          "duration": 3
+        },
+        {
+          "tileOffset": 48,
+          "duration": 3
+        },
+        {
+          "tileOffset": 64,
+          "duration": 3
+        }
+      ]
+    ]
+  },
+  "gPokeblockSpriteTemplate": {
+    "tileTag": "ANIM_TAG_POKEBLOCK",
+    "paletteTag": "ANIM_TAG_POKEBLOCK",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "SpriteCB_PokeBlock_Throw",
+    "anims": []
+  },
+  "gRainDropSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RAIN_DROPS",
+    "paletteTag": "ANIM_TAG_RAIN_DROPS",
+    "oam": "gOamData_AffineOff_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimRainDrop",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 2
+        },
+        {
+          "tileOffset": 8,
+          "duration": 2
+        },
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 24,
+          "duration": 6
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 40,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gWaterBubbleProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BUBBLE",
+    "paletteTag": "ANIM_TAG_BUBBLE",
+    "oam": "gOamData_AffineNormal_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWaterBubbleProjectile",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 5
+        },
+        {
+          "tileOffset": 8,
+          "duration": 5
+        }
+      ]
+    ]
+  },
+  "gAuroraBeamRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_RAINBOW_RINGS",
+    "paletteTag": "ANIM_TAG_RAINBOW_RINGS",
+    "oam": "gOamData_AffineDouble_ObjNormal_8x16",
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "callback": "AnimAuroraBeamRings",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gHydroPumpOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WATER_ORB",
+    "paletteTag": "ANIM_TAG_WATER_ORB",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimToTargetInSinWave",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 12,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gMudShotOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BROWN_ORB",
+    "paletteTag": "ANIM_TAG_BROWN_ORB",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimToTargetInSinWave",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 12,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSignalBeamRedOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GLOWY_RED_ORB",
+    "paletteTag": "ANIM_TAG_GLOWY_RED_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimToTargetInSinWave",
+    "anims": []
+  },
+  "gSignalBeamGreenOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GLOWY_GREEN_ORB",
+    "paletteTag": "ANIM_TAG_GLOWY_GREEN_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimToTargetInSinWave",
+    "anims": []
+  },
+  "gFlamethrowerFlameSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_EMBER",
+    "paletteTag": "ANIM_TAG_SMALL_EMBER",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "AnimToTargetInSinWave",
+    "anims": [
+      [
+        {
+          "tileOffset": 16,
+          "duration": 2
+        },
+        {
+          "tileOffset": 32,
+          "duration": 2
+        },
+        {
+          "tileOffset": 48,
+          "duration": 2
+        }
+      ]
+    ]
+  },
+  "gPsywaveRingSpriteTemplate": {
+    "tileTag": "ANIM_TAG_BLUE_RING",
+    "paletteTag": "ANIM_TAG_BLUE_RING",
+    "oam": "gOamData_AffineDouble_ObjNormal_16x32",
+    "frameWidth": 16,
+    "frameHeight": 32,
+    "callback": "AnimToTargetInSinWave",
+    "anims": []
+  },
+  "gHydroCannonChargeSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WATER_ORB",
+    "paletteTag": "ANIM_TAG_WATER_ORB",
+    "oam": "gOamData_AffineDouble_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimHydroCannonCharge",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 12,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gHydroCannonBeamSpriteTemplate": {
+    "tileTag": "ANIM_TAG_WATER_ORB",
+    "paletteTag": "ANIM_TAG_WATER_ORB",
+    "oam": "gOamData_AffineDouble_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimHydroCannonBeam",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        },
+        {
+          "tileOffset": 4,
+          "duration": 1
+        },
+        {
+          "tileOffset": 8,
+          "duration": 1
+        },
+        {
+          "tileOffset": 12,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gWaterGunProjectileSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineOff_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimThrowProjectile",
+    "anims": [
+      [
+        {
+          "tileOffset": 0,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gWaterGunDropletSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineDouble_ObjBlend_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWaterGunDroplet",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gSmallBubblePairSpriteTemplate": {
+    "tileTag": "ANIM_TAG_ICE_CRYSTALS",
+    "paletteTag": "ANIM_TAG_ICE_CRYSTALS",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSmallBubblePair",
+    "anims": [
+      [
+        {
+          "tileOffset": 12,
+          "duration": 6
+        },
+        {
+          "tileOffset": 13,
+          "duration": 6
+        }
+      ]
+    ]
+  },
+  "gSmallDriftingBubblesSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSmallDriftingBubbles",
+    "anims": []
+  },
+  "gSmallWaterOrbSpriteTemplate": {
+    "tileTag": "ANIM_TAG_GLOWY_BLUE_ORB",
+    "paletteTag": "ANIM_TAG_GLOWY_BLUE_ORB",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimSmallWaterOrb",
+    "anims": []
+  },
+  "gWaterPulseBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineOff_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimWaterPulseBubble",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 9,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gWaterPulseRingBubbleSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjNormal_8x8",
+    "frameWidth": 8,
+    "frameHeight": 8,
+    "callback": "AnimWaterPulseRingBubble",
+    "anims": [
+      [
+        {
+          "tileOffset": 8,
+          "duration": 1
+        }
+      ],
+      [
+        {
+          "tileOffset": 9,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gWeatherBallWaterDownSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SMALL_BUBBLES",
+    "paletteTag": "ANIM_TAG_SMALL_BUBBLES",
+    "oam": "gOamData_AffineNormal_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "AnimWeatherBallDown",
+    "anims": [
+      [
+        {
+          "tileOffset": 4,
+          "duration": 1
+        }
+      ]
+    ]
+  },
+  "gShakeMonOrTerrainSpriteTemplate": {
+    "tileTag": "0",
+    "paletteTag": "0",
+    "oam": "gDummyOamData",
+    "frameWidth": null,
+    "frameHeight": null,
+    "callback": "AnimShakeMonOrBattleTerrain",
+    "anims": []
+  },
+  "gSafariBaitSpriteTemplate": {
+    "tileTag": "ANIM_TAG_SAFARI_BAIT",
+    "paletteTag": "ANIM_TAG_SAFARI_BAIT",
+    "oam": "gOamData_AffineOff_ObjNormal_16x16",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "callback": "SpriteCB_SafariBaitOrRock_Init",
+    "anims": []
+  },
+  "gSafariRockTemplate": {
+    "tileTag": "ANIM_TAG_ROCKS",
+    "paletteTag": "ANIM_TAG_ROCKS",
+    "oam": "gOamData_AffineOff_ObjNormal_32x32",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "callback": "SpriteCB_SafariBaitOrRock_Init",
+    "anims": [
+      [
+        {
+          "tileOffset": 64,
+          "duration": 1
+        }
+      ]
+    ]
+  }
+}

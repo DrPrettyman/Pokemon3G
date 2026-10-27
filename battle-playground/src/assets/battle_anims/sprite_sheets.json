@@ -1,0 +1,1422 @@
+{
+  "ANIM_TAG_BONE": {
+    "file": "bone.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_PENCIL": {
+    "file": "pencil.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_AIR_WAVE": {
+    "file": "air_wave.png",
+    "width": 32,
+    "height": 16
+  },
+  "ANIM_TAG_ORB": {
+    "file": "orb.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_SWORD": {
+    "file": "sword.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_SEED": {
+    "file": "seed.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_EXPLOSION_6": {
+    "file": "explosion_6.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_PINK_ORB": {
+    "file": "pink_orb.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_GUST": {
+    "file": "gust.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_SPARK_2": {
+    "file": "spark_2.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_ORANGE": {
+    "file": "orange.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_YELLOW_BALL": {
+    "file": "yellow_ball.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_LOCK_ON": {
+    "file": "lock_on.png",
+    "width": 32,
+    "height": 40
+  },
+  "ANIM_TAG_TIED_BAG": {
+    "file": "tied_bag.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_BLACK_SMOKE": {
+    "file": "black_smoke.png",
+    "width": 32,
+    "height": 16
+  },
+  "ANIM_TAG_BLACK_BALL": {
+    "file": "black_ball.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_CONVERSION": {
+    "file": "conversion.png",
+    "width": 8,
+    "height": 32
+  },
+  "ANIM_TAG_GLASS": {
+    "file": "glass.png",
+    "width": 32,
+    "height": 56
+  },
+  "ANIM_TAG_HORN_HIT": {
+    "file": "horn_hit.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_HIT": {
+    "file": "hit.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_HIT_2": {
+    "file": "hit.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_BLUE_SHARDS": {
+    "file": "blue_shards.png",
+    "width": 16,
+    "height": 112
+  },
+  "ANIM_TAG_CLOSING_EYE": {
+    "file": "closing_eye.png",
+    "width": 32,
+    "height": 48
+  },
+  "ANIM_TAG_WAVING_HAND": {
+    "file": "waving_hand.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_HIT_DUPLICATE": {
+    "file": "hit_duplicate.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_LEER": {
+    "file": "leer.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_BLUE_BURST": {
+    "file": "blue_burst.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SMALL_EMBER": {
+    "file": "small_ember.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_GRAY_SMOKE": {
+    "file": "gray_smoke.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_BLUE_STAR": {
+    "file": "blue_star.png",
+    "width": 32,
+    "height": 224
+  },
+  "ANIM_TAG_BUBBLE_BURST": {
+    "file": "bubble_burst.png",
+    "width": 16,
+    "height": 112
+  },
+  "ANIM_TAG_FIRE": {
+    "file": "fire.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_SPINNING_FIRE": {
+    "file": "spinning_fire.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_FIRE_PLUME": {
+    "file": "fire_plume.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_LIGHTNING_2": {
+    "file": "lightning_2.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_LIGHTNING": {
+    "file": "lightning.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_CLAW_SLASH_2": {
+    "file": "claw_slash_2.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_CLAW_SLASH": {
+    "file": "claw_slash.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SCRATCH_3": {
+    "file": "scratch_3.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SCRATCH_2": {
+    "file": "scratch_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_BUBBLE_BURST_2": {
+    "file": "bubble_burst_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_ICE_CHUNK": {
+    "file": "ice_chunk.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_GLASS_2": {
+    "file": "glass_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_PINK_HEART_2": {
+    "file": "pink_heart_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SAP_DRIP": {
+    "file": "sap_drip.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_SAP_DRIP_2": {
+    "file": "sap_drip.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_SPARKLE_1": {
+    "file": "sparkle_1.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_SPARKLE_2": {
+    "file": "sparkle_1.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_HUMANOID_FOOT": {
+    "file": "humanoid_foot.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_MONSTER_FOOT": {
+    "file": "monster_foot.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_HUMANOID_HAND": {
+    "file": "humanoid_hand.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_NOISE_LINE": {
+    "file": "noise_line.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_YELLOW_UNK": {
+    "file": "yellow_unk.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_RED_FIST": {
+    "file": "red_fist.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SLAM_HIT": {
+    "file": "slam_hit.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_RING": {
+    "file": "ring.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_ROCKS": {
+    "file": "rocks.png",
+    "width": 32,
+    "height": 192
+  },
+  "ANIM_TAG_Z": {
+    "file": "z.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_YELLOW_UNK_2": {
+    "file": "yellow_unk_2.png",
+    "width": 8,
+    "height": 16
+  },
+  "ANIM_TAG_AIR_SLASH": {
+    "file": "air_slash.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_SPINNING_GREEN_ORBS": {
+    "file": "spinning_green_orbs.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_LEAF": {
+    "file": "leaf.png",
+    "width": 16,
+    "height": 144
+  },
+  "ANIM_TAG_FINGER": {
+    "file": "finger.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_POISON_POWDER": {
+    "file": "poison_powder.png",
+    "width": 8,
+    "height": 128
+  },
+  "ANIM_TAG_BROWN_TRIANGLE": {
+    "file": "brown_triangle.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_SLEEP_POWDER": {
+    "file": "poison_powder.png",
+    "width": 8,
+    "height": 128
+  },
+  "ANIM_TAG_STUN_SPORE": {
+    "file": "poison_powder.png",
+    "width": 8,
+    "height": 128
+  },
+  "ANIM_TAG_POWDER": {
+    "file": "poison_powder.png",
+    "width": 8,
+    "height": 128
+  },
+  "ANIM_TAG_SPARKLE_3": {
+    "file": "sparkle_3.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_SPARKLE_4": {
+    "file": "sparkle_4.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_MUSIC_NOTES": {
+    "file": "music_notes.png",
+    "width": 16,
+    "height": 96
+  },
+  "ANIM_TAG_DUCK": {
+    "file": "duck.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_ALERT": {
+    "file": "alert.png",
+    "width": 32,
+    "height": 112
+  },
+  "ANIM_TAG_BLUE_FLAMES": {
+    "file": "blue_flames.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_BLUE_FLAMES_2": {
+    "file": "blue_flames_2.png",
+    "width": 8,
+    "height": 128
+  },
+  "ANIM_TAG_SHOCK_4": {
+    "file": "shock_4.png",
+    "width": 16,
+    "height": 96
+  },
+  "ANIM_TAG_SHOCK": {
+    "file": "shock.png",
+    "width": 32,
+    "height": 192
+  },
+  "ANIM_TAG_BELL_2": {
+    "file": "bell_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_PINK_GLOVE": {
+    "file": "pink_glove.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_BLUE_LINES": {
+    "file": "blue_lines.png",
+    "width": 8,
+    "height": 16
+  },
+  "ANIM_TAG_IMPACT_3": {
+    "file": "impact_3.png",
+    "width": 32,
+    "height": 208
+  },
+  "ANIM_TAG_IMPACT_2": {
+    "file": "impact_2.png",
+    "width": 32,
+    "height": 192
+  },
+  "ANIM_TAG_RETICLE": {
+    "file": "reticle.png",
+    "width": 16,
+    "height": 80
+  },
+  "ANIM_TAG_BREATH": {
+    "file": "breath.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_ANGER": {
+    "file": "anger.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_SNOWBALL": {
+    "file": "snowball.png",
+    "width": 8,
+    "height": 48
+  },
+  "ANIM_TAG_VINE": {
+    "file": "vine.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SWORD_2": {
+    "file": "sword_2.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_CLAPPING": {
+    "file": "clapping.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_RED_TUBE": {
+    "file": "red_tube.png",
+    "width": 32,
+    "height": 8
+  },
+  "ANIM_TAG_AMNESIA": {
+    "file": "amnesia.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_STRING_2": {
+    "file": "string_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_PENCIL_2": {
+    "file": "pencil_2.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_PETAL": {
+    "file": "petal.png",
+    "width": 16,
+    "height": 112
+  },
+  "ANIM_TAG_BENT_SPOON": {
+    "file": "bent_spoon.png",
+    "width": 16,
+    "height": 192
+  },
+  "ANIM_TAG_WEB": {
+    "file": "web.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_MILK_BOTTLE": {
+    "file": "milk_bottle.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_COIN": {
+    "file": "coin.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_CRACKED_EGG": {
+    "file": "cracked_egg.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_HATCHED_EGG": {
+    "file": "hatched_egg.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_FRESH_EGG": {
+    "file": "fresh_egg.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_FANGS": {
+    "file": "fangs.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_EXPLOSION_2": {
+    "file": "explosion_2.png",
+    "width": 32,
+    "height": 192
+  },
+  "ANIM_TAG_EXPLOSION_3": {
+    "file": "explosion_3.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_WATER_DROPLET": {
+    "file": "water_droplet.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_WATER_DROPLET_2": {
+    "file": "water_droplet_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_SEED_2": {
+    "file": "seed_2.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_SPROUT": {
+    "file": "sprout.png",
+    "width": 32,
+    "height": 224
+  },
+  "ANIM_TAG_RED_WAND": {
+    "file": "red_wand.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_PURPLE_GREEN_UNK": {
+    "file": "purple_green_unk.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_WATER_COLUMN": {
+    "file": "water_column.png",
+    "width": 16,
+    "height": 128
+  },
+  "ANIM_TAG_MUD_UNK": {
+    "file": "mud_unk.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_RAIN_DROPS": {
+    "file": "rain_drops.png",
+    "width": 16,
+    "height": 224
+  },
+  "ANIM_TAG_FURY_SWIPES": {
+    "file": "fury_swipes.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_VINE_2": {
+    "file": "vine_2.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_TEETH": {
+    "file": "teeth.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_BONE_2": {
+    "file": "bone_2.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_WHITE_BAG": {
+    "file": "white_bag.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_UNKNOWN": {
+    "file": "unknown.png",
+    "width": 8,
+    "height": 16
+  },
+  "ANIM_TAG_PURPLE_CORAL": {
+    "file": "purple_coral.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_PURPLE_DROPLET": {
+    "file": "purple_droplet.png",
+    "width": 16,
+    "height": 192
+  },
+  "ANIM_TAG_SHOCK_2": {
+    "file": "shock_2.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_CLOSING_EYE_2": {
+    "file": "closing_eye_2.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_METAL_BALL": {
+    "file": "metal_ball.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_MONSTER_DOLL": {
+    "file": "monster_doll.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_WHIRLWIND": {
+    "file": "whirlwind.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_WHIRLWIND_2": {
+    "file": "whirlwind_2.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_EXPLOSION_4": {
+    "file": "explosion_4.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_EXPLOSION_5": {
+    "file": "explosion_5.png",
+    "width": 16,
+    "height": 80
+  },
+  "ANIM_TAG_TONGUE": {
+    "file": "tongue.png",
+    "width": 16,
+    "height": 80
+  },
+  "ANIM_TAG_SMOKE": {
+    "file": "smoke.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_SMOKE_2": {
+    "file": "smoke_2.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_IMPACT": {
+    "file": "impact.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_CIRCLE_IMPACT": {
+    "file": "circle_impact.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_SCRATCH": {
+    "file": "scratch.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_CUT": {
+    "file": "cut.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_SHARP_TEETH": {
+    "file": "sharp_teeth.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_RAINBOW_RINGS": {
+    "file": "rainbow_rings.png",
+    "width": 8,
+    "height": 48
+  },
+  "ANIM_TAG_ICE_SPIKES": {
+    "file": "ice_spikes.png",
+    "width": 8,
+    "height": 64
+  },
+  "ANIM_TAG_HANDS_AND_FEET": {
+    "file": "hands_and_feet.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_MIST_CLOUD": {
+    "file": "mist_cloud.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_CLAMP": {
+    "file": "clamp.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_BUBBLE": {
+    "file": "bubble.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_ORBS": {
+    "file": "orbs.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_WATER_IMPACT": {
+    "file": "water_impact.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_WATER_ORB": {
+    "file": "water_orb.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_POISON_BUBBLE": {
+    "file": "poison_bubble.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_TOXIC_BUBBLE": {
+    "file": "toxic_bubble.png",
+    "width": 16,
+    "height": 128
+  },
+  "ANIM_TAG_SPIKES": {
+    "file": "spikes.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_HORN_HIT_2": {
+    "file": "horn_hit_2.png",
+    "width": 32,
+    "height": 16
+  },
+  "ANIM_TAG_AIR_WAVE_2": {
+    "file": "air_wave_2.png",
+    "width": 32,
+    "height": 16
+  },
+  "ANIM_TAG_SMALL_BUBBLES": {
+    "file": "small_bubbles.png",
+    "width": 16,
+    "height": 40
+  },
+  "ANIM_TAG_ROUND_SHADOW": {
+    "file": "round_shadow.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_SUNLIGHT": {
+    "file": "sunlight.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SPORE": {
+    "file": "spore.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_RAZOR_LEAF": {
+    "file": "razor_leaf.png",
+    "width": 32,
+    "height": 16
+  },
+  "ANIM_TAG_NEEDLE": {
+    "file": "needle.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_WHIRLWIND_LINES": {
+    "file": "whirlwind_lines.png",
+    "width": 32,
+    "height": 48
+  },
+  "ANIM_TAG_GOLD_RING": {
+    "file": "gold_ring.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_PURPLE_RING": {
+    "file": "gold_ring.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_BLUE_RING": {
+    "file": "gold_ring.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_GREEN_LIGHT_WALL": {
+    "file": "green_light_wall.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_BLUE_LIGHT_WALL": {
+    "file": "green_light_wall.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_RED_LIGHT_WALL": {
+    "file": "green_light_wall.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_GRAY_LIGHT_WALL": {
+    "file": "green_light_wall.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_ORANGE_LIGHT_WALL": {
+    "file": "green_light_wall.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_BLACK_BALL_2": {
+    "file": "black_ball_2.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_PURPLE_GAS_CLOUD": {
+    "file": "mist_cloud.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SPARK_H": {
+    "file": "spark_h.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_YELLOW_STAR": {
+    "file": "yellow_star.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_LARGE_FRESH_EGG": {
+    "file": "large_fresh_egg.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_SHADOW_BALL": {
+    "file": "shadow_ball.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_LICK": {
+    "file": "lick.png",
+    "width": 16,
+    "height": 160
+  },
+  "ANIM_TAG_VOID_LINES": {
+    "file": "void_lines.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_STRING": {
+    "file": "string.png",
+    "width": 64,
+    "height": 32
+  },
+  "ANIM_TAG_WEB_THREAD": {
+    "file": "web_thread.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_SPIDER_WEB": {
+    "file": "spider_web.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_LIGHTBULB": {
+    "file": "lightbulb.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_SLASH": {
+    "file": "slash.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_FOCUS_ENERGY": {
+    "file": "focus_energy.png",
+    "width": 16,
+    "height": 128
+  },
+  "ANIM_TAG_SPHERE_TO_CUBE": {
+    "file": "sphere_to_cube.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_TENDRILS": {
+    "file": "tendrils.png",
+    "width": 64,
+    "height": 128
+  },
+  "ANIM_TAG_EYE": {
+    "file": "eye.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_WHITE_SHADOW": {
+    "file": "white_shadow.png",
+    "width": 64,
+    "height": 32
+  },
+  "ANIM_TAG_TEAL_ALERT": {
+    "file": "teal_alert.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_OPENING_EYE": {
+    "file": "opening_eye.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_ROUND_WHITE_HALO": {
+    "file": "round_white_halo.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_FANG_ATTACK": {
+    "file": "fang_attack.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_PURPLE_HAND_OUTLINE": {
+    "file": "purple_hand_outline.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_MOON": {
+    "file": "moon.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_GREEN_SPARKLE": {
+    "file": "green_sparkle.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_SPIRAL": {
+    "file": "spiral.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_SNORE_Z": {
+    "file": "snore_z.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_EXPLOSION": {
+    "file": "explosion.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_NAIL": {
+    "file": "nail.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_GHOSTLY_SPIRIT": {
+    "file": "ghostly_spirit.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_WARM_ROCK": {
+    "file": "warm_rock.png",
+    "width": 32,
+    "height": 168
+  },
+  "ANIM_TAG_BREAKING_EGG": {
+    "file": "breaking_egg.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_THIN_RING": {
+    "file": "thin_ring.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_PUNCH_IMPACT": {
+    "file": "punch_impact.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_BELL": {
+    "file": "bell.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_MUSIC_NOTES_2": {
+    "file": "music_notes_2.png",
+    "width": 16,
+    "height": 256
+  },
+  "ANIM_TAG_SPEED_DUST": {
+    "file": "speed_dust.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_TORN_METAL": {
+    "file": "torn_metal.png",
+    "width": 128,
+    "height": 32
+  },
+  "ANIM_TAG_THOUGHT_BUBBLE": {
+    "file": "thought_bubble.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_MAGENTA_HEART": {
+    "file": "magenta_heart.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_ELECTRIC_ORBS": {
+    "file": "electric_orbs.png",
+    "width": 8,
+    "height": 32
+  },
+  "ANIM_TAG_CIRCLE_OF_LIGHT": {
+    "file": "circle_of_light.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_ELECTRICITY": {
+    "file": "electricity.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_FINGER_2": {
+    "file": "finger_2.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_MOVEMENT_WAVES": {
+    "file": "movement_waves.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_RED_HEART": {
+    "file": "magenta_heart.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_RED_ORB": {
+    "file": "red_orb.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_EYE_SPARKLE": {
+    "file": "eye_sparkle.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_PINK_HEART": {
+    "file": "magenta_heart.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_ANGEL": {
+    "file": "angel.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_DEVIL": {
+    "file": "devil.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_SWIPE": {
+    "file": "swipe.png",
+    "width": 32,
+    "height": 160
+  },
+  "ANIM_TAG_ROOTS": {
+    "file": "roots.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_ITEM_BAG": {
+    "file": "item_bag.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_JAGGED_MUSIC_NOTE": {
+    "file": "jagged_music_note.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_POKEBALL": {
+    "file": "pokeball.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_SPOTLIGHT": {
+    "file": "spotlight.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_LETTER_Z": {
+    "file": "letter_z.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_RAPID_SPIN": {
+    "file": "rapid_spin.png",
+    "width": 32,
+    "height": 48
+  },
+  "ANIM_TAG_TRI_ATTACK_TRIANGLE": {
+    "file": "tri_attack_triangle.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_WISP_ORB": {
+    "file": "wisp_orb.png",
+    "width": 16,
+    "height": 112
+  },
+  "ANIM_TAG_WISP_FIRE": {
+    "file": "wisp_fire.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_GOLD_STARS": {
+    "file": "gold_stars.png",
+    "width": 16,
+    "height": 24
+  },
+  "ANIM_TAG_ECLIPSING_ORB": {
+    "file": "eclipsing_orb.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_GRAY_ORB": {
+    "file": "gray_orb.png",
+    "width": 8,
+    "height": 24
+  },
+  "ANIM_TAG_BLUE_ORB": {
+    "file": "gray_orb.png",
+    "width": 8,
+    "height": 24
+  },
+  "ANIM_TAG_RED_ORB_2": {
+    "file": "gray_orb.png",
+    "width": 8,
+    "height": 24
+  },
+  "ANIM_TAG_PINK_PETAL": {
+    "file": "pink_petal.png",
+    "width": 8,
+    "height": 32
+  },
+  "ANIM_TAG_PAIN_SPLIT": {
+    "file": "pain_split.png",
+    "width": 16,
+    "height": 48
+  },
+  "ANIM_TAG_CONFETTI": {
+    "file": "confetti.png",
+    "width": 8,
+    "height": 96
+  },
+  "ANIM_TAG_GREEN_STAR": {
+    "file": "green_star.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_PINK_CLOUD": {
+    "file": "pink_cloud.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SWEAT_DROP": {
+    "file": "sweat_drop.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_GUARD_RING": {
+    "file": "guard_ring.png",
+    "width": 64,
+    "height": 32
+  },
+  "ANIM_TAG_PURPLE_SCRATCH": {
+    "file": "purple_scratch.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_PURPLE_SWIPE": {
+    "file": "purple_swipe.png",
+    "width": 64,
+    "height": 128
+  },
+  "ANIM_TAG_TAG_HAND": {
+    "file": "tag_hand.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_SMALL_RED_EYE": {
+    "file": "small_red_eye.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_HOLLOW_ORB": {
+    "file": "hollow_orb.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_X_SIGN": {
+    "file": "x_sign.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_BLUEGREEN_ORB": {
+    "file": "bluegreen_orb.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_PAW_PRINT": {
+    "file": "paw_print.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_PURPLE_FLAME": {
+    "file": "purple_flame.png",
+    "width": 16,
+    "height": 128
+  },
+  "ANIM_TAG_RED_BALL": {
+    "file": "red_ball.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SMELLINGSALT_EFFECT": {
+    "file": "smellingsalt_effect.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_METEOR": {
+    "file": "meteor.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_FLAT_ROCK": {
+    "file": "flat_rock.png",
+    "width": 16,
+    "height": 80
+  },
+  "ANIM_TAG_MAGNIFYING_GLASS": {
+    "file": "magnifying_glass.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_BROWN_ORB": {
+    "file": "water_orb.png",
+    "width": 16,
+    "height": 64
+  },
+  "ANIM_TAG_METAL_SOUND_WAVES": {
+    "file": "metal_sound_waves.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_FLYING_DIRT": {
+    "file": "flying_dirt.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_ICICLE_SPEAR": {
+    "file": "icicle_spear.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_HAIL": {
+    "file": "hail.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_GLOWY_RED_ORB": {
+    "file": "glowy_red_orb.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_GLOWY_GREEN_ORB": {
+    "file": "glowy_red_orb.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_GREEN_SPIKE": {
+    "file": "green_spike.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_WHITE_CIRCLE_OF_LIGHT": {
+    "file": "circle_of_light.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_GLOWY_BLUE_ORB": {
+    "file": "glowy_red_orb.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_POKEBLOCK": {
+    "file": "pokeblock.png",
+    "width": 16,
+    "height": 16
+  },
+  "ANIM_TAG_WHITE_FEATHER": {
+    "file": "white_feather.png",
+    "width": 32,
+    "height": 64
+  },
+  "ANIM_TAG_SPARKLE_6": {
+    "file": "sparkle_6.png",
+    "width": 16,
+    "height": 32
+  },
+  "ANIM_TAG_SPLASH": {
+    "file": "splash.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_SWEAT_BEAD": {
+    "file": "sweat_bead.png",
+    "width": 8,
+    "height": 8
+  },
+  "ANIM_TAG_GEM_1": {
+    "file": "gem_1.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_GEM_2": {
+    "file": "gem_2.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_GEM_3": {
+    "file": "gem_3.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_SLAM_HIT_2": {
+    "file": "slam_hit_2.png",
+    "width": 64,
+    "height": 128
+  },
+  "ANIM_TAG_RECYCLE": {
+    "file": "recycle.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_RED_PARTICLES": {
+    "file": "red_particles.png",
+    "width": 8,
+    "height": 40
+  },
+  "ANIM_TAG_PROTECT": {
+    "file": "protect.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_DIRT_MOUND": {
+    "file": "dirt_mound.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SHOCK_3": {
+    "file": "shock_3.png",
+    "width": 32,
+    "height": 96
+  },
+  "ANIM_TAG_WEATHER_BALL": {
+    "file": "weather_ball.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_BIRD": {
+    "file": "bird.png",
+    "width": 64,
+    "height": 64
+  },
+  "ANIM_TAG_CROSS_IMPACT": {
+    "file": "cross_impact.png",
+    "width": 32,
+    "height": 32
+  },
+  "ANIM_TAG_SLASH_2": {
+    "file": "slash.png",
+    "width": 32,
+    "height": 128
+  },
+  "ANIM_TAG_WHIP_HIT": {
+    "file": "slam_hit.png",
+    "width": 32,
+    "height": 256
+  },
+  "ANIM_TAG_BLUE_RING_2": {
+    "file": "gold_ring.png",
+    "width": 16,
+    "height": 32
+  }
+}
