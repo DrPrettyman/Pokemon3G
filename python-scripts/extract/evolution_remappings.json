@@ -1,0 +1,26 @@
+{
+  "_description": "Remaps non-Gen-3 evolution methods to Gen-3-compatible equivalents. Keyed by evolved_species_id. These are applied in csv_data.build_pokemon() as a 'remapped_method' field on evolution entries.",
+  "_custom_triggers": {
+    "random-form": "After evolution, select form at random from available forms"
+  },
+
+  "462":  {"method": "level-up", "level": 40, "note": "Magnezone: originally level-up at magnetic location"},
+  "470":  {"method": "use-item", "item_id": 85, "note": "Leafeon: originally level-up near Moss Rock; remap to Leaf Stone"},
+  "471":  {"method": "use-item", "item_id": 885, "note": "Glaceon: originally level-up near Ice Rock; remap to Ice Stone"},
+  "476":  {"method": "level-up", "level": 40, "note": "Probopass: originally level-up at magnetic location"},
+  "589":  {"method": "trade", "note": "Escavalier: originally trade Karrablast for Shelmet; remap to plain trade"},
+  "617":  {"method": "trade", "note": "Accelgor: originally trade Shelmet for Karrablast; remap to plain trade"},
+  "738":  {"method": "level-up", "level": 40, "note": "Vikavolt: originally level-up at magnetic location"},
+  "740":  {"method": "level-up", "level": 42, "note": "Crabominable: originally level-up at icy location"},
+  "865":  {"method": "level-up", "level": 40, "note": "Sirfetch'd: originally land 3 critical hits in one battle"},
+  "867":  {"method": "level-up", "level": 34, "note": "Runerigus: originally take 49+ damage then go under stone arch"},
+  "869":  {"method": "use-item", "item_id": 1174, "note": "Alcremie: originally spin while holding Sweet; remap to Sweet item use"},
+  "892":  {"method": "level-up", "level": 42, "note": "Urshifu: originally train in Tower of Darkness/Waters"},
+  "899":  {"method": "level-up", "level": 42, "note": "Wyrdeer: originally use Psyshield Bash 20 times in agile style"},
+  "902":  {"method": "level-up", "level": 40, "note": "Basculegion: originally take 294+ recoil damage without fainting"},
+  "904":  {"method": "level-up", "level": 40, "note": "Overqwil: originally use Barb Barrage 20 times in strong style"},
+  "925":  {"method": "level-up", "level": 25, "post_trigger": "random-form", "note": "Maushold: evolves at level 25; form (Family of Three or Four) selected at random"},
+  "979":  {"method": "level-up", "level": 40, "note": "Annihilape: originally use Rage Fist 20 times"},
+  "983":  {"method": "level-up", "level": 52, "note": "Kingambit: originally defeat 3 Bisharp holding Leader's Crest"},
+  "1000": {"method": "level-up", "level": 40, "note": "Gholdengo: originally collect 999 Gimmighoul Coins"}
+}

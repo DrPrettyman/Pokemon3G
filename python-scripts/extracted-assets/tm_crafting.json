@@ -1,0 +1,3789 @@
+[
+  {
+    "tm": "TM001",
+    "move": "Take Down",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Lechonk Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Yungoos Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM002",
+    "move": "Charm",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Azurill Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Teddiursa Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM003",
+    "move": "Fake Tears",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Bonsly Tears",
+        "quantity": 3
+      },
+      {
+        "name": "Teddiursa Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM004",
+    "move": "Agility",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Fletchling Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Oricorio Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM005",
+    "move": "Mud-Slap",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Wooper Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM006",
+    "move": "Scary Face",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Stantler Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Sandile Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM007",
+    "move": "Protect",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Lechonk Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Scatterbug Powder",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM008",
+    "move": "Fire Fang",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Houndour Fang",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM009",
+    "move": "Thunder Fang",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Shinx Fang",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM010",
+    "move": "Ice Fang",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Cubchoo Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM011",
+    "move": "Water Pulse",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Buizel Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Magikarp Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM012",
+    "move": "Low Kick",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Mankey Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM013",
+    "move": "Acid Spray",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Toxel Sparks",
+        "quantity": 3
+      },
+      {
+        "name": "Wooper Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM014",
+    "move": "Acrobatics",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Wattrel Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Bombirdier Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM015",
+    "move": "Struggle Bug",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Tarountula Thread",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM016",
+    "move": "Psybeam",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Psyduck Down",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM017",
+    "move": "Confuse Ray",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Gastly Gas",
+        "quantity": 3
+      },
+      {
+        "name": "Mareep Wool",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM018",
+    "move": "Thief",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Houndour Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Shroodle Ink",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM019",
+    "move": "Disarming Voice",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Ralts Dust",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM020",
+    "move": "Trailblaze",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Petilil Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Hoppip Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM021",
+    "move": "Pounce",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Nymble Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Tarountula Thread",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM022",
+    "move": "Chilling Water",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Psyduck Down",
+        "quantity": 3
+      },
+      {
+        "name": "Surskit Syrup",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM023",
+    "move": "Charge Beam",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Mareep Wool",
+        "quantity": 3
+      },
+      {
+        "name": "Dedenne Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM024",
+    "move": "Fire Spin",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Growlithe Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Torkoal Coal",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM025",
+    "move": "Facade",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Komala Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Tinkatink Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Stantler Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM026",
+    "move": "Poison Tail",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Seviper Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Shroodle Ink",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM027",
+    "move": "Aerial Ace",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Starly Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Fletchling Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM028",
+    "move": "Bulldoze",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Mudbray Mud",
+        "quantity": 3
+      },
+      {
+        "name": "Sandygast Sand",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM029",
+    "move": "Hex",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Mimikyu Scrap",
+        "quantity": 3
+      },
+      {
+        "name": "Greavard Wax",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM030",
+    "move": "Snarl",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Maschiff Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Squawkabilly Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM031",
+    "move": "Metal Claw",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Teddiursa Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM032",
+    "move": "Swift",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Fletchling Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM033",
+    "move": "Magical Leaf",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Smoliv Oil",
+        "quantity": 3
+      },
+      {
+        "name": "Petilil Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM034",
+    "move": "Icy Wind",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Snom Thread",
+        "quantity": 3
+      },
+      {
+        "name": "Snover Berries",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM035",
+    "move": "Mud Shot",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Sandile Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Wooper Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM036",
+    "move": "Rock Tomb",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Rockruff Rock",
+        "quantity": 3
+      },
+      {
+        "name": "Klawf Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM037",
+    "move": "Draining Kiss",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Igglybuff Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Flabébé Pollen",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM038",
+    "move": "Flame Charge",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Fletchling Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Torkoal Coal",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM039",
+    "move": "Low Sweep",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Croagunk Poison",
+        "quantity": 3
+      },
+      {
+        "name": "Mankey Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM040",
+    "move": "Air Cutter",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Combee Honey",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM041",
+    "move": "Stored Power",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Gothita Eyelash",
+        "quantity": 3
+      },
+      {
+        "name": "Ralts Dust",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM042",
+    "move": "Night Shade",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Gastly Gas",
+        "quantity": 3
+      },
+      {
+        "name": "Murkrow Bauble",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM043",
+    "move": "Fling",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Sneasel Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Happiny Dust",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM044",
+    "move": "Dragon Tail",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Dratini Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Sandile Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM045",
+    "move": "Venoshock",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Toxel Sparks",
+        "quantity": 3
+      },
+      {
+        "name": "Salandit Gas",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM046",
+    "move": "Avalanche",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Bergmite Ice",
+        "quantity": 3
+      },
+      {
+        "name": "Snorunt Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM047",
+    "move": "Endure",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Scatterbug Powder",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM048",
+    "move": "Volt Switch",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Dedenne Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Shinx Fang",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM049",
+    "move": "Sunny Day",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Sunkern Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Torkoal Coal",
+        "quantity": 3
+      },
+      {
+        "name": "Litleo Tuft",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM050",
+    "move": "Rain Dance",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Shellos Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Azurill Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Wattrel Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM051",
+    "move": "Sandstorm",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Hippopotas Sand",
+        "quantity": 3
+      },
+      {
+        "name": "Silicobra Sand",
+        "quantity": 3
+      },
+      {
+        "name": "Sandygast Sand",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM052",
+    "move": "Snowscape",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Snover Berries",
+        "quantity": 3
+      },
+      {
+        "name": "Delibird Parcel",
+        "quantity": 3
+      },
+      {
+        "name": "Snom Thread",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM053",
+    "move": "Smart Strike",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Chewtle Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Heracross Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM054",
+    "move": "Psyshock",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Meditite Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Spoink Pearl",
+        "quantity": 3
+      },
+      {
+        "name": "Drowzee Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM055",
+    "move": "Dig",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Diglett Dirt",
+        "quantity": 3
+      },
+      {
+        "name": "Greavard Wax",
+        "quantity": 3
+      },
+      {
+        "name": "Orthworm Tarnish",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM056",
+    "move": "Bullet Seed",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Sunkern Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Hoppip Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM057",
+    "move": "False Swipe",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Kricketot Shell",
+        "quantity": 3
+      },
+      {
+        "name": "Chewtle Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM058",
+    "move": "Brick Break",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Makuhita Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Hawlucha Down",
+        "quantity": 3
+      },
+      {
+        "name": "Crabrawler Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM059",
+    "move": "Zen Headbutt",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Veluza Fillet",
+        "quantity": 3
+      },
+      {
+        "name": "Girafarig Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Dunsparce Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM060",
+    "move": "U-turn",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Nymble Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Scyther Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM061",
+    "move": "Shadow Claw",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Mimikyu Scrap",
+        "quantity": 3
+      },
+      {
+        "name": "Komala Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM062",
+    "move": "Foul Play",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Murkrow Bauble",
+        "quantity": 3
+      },
+      {
+        "name": "Sandile Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM063",
+    "move": "Psychic Fangs",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Bruxish Tooth",
+        "quantity": 5
+      },
+      {
+        "name": "Basculin Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Veluza Fillet",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM064",
+    "move": "Bulk Up",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Makuhita Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Axew Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM065",
+    "move": "Air Slash",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Noibat Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Wingull Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Flamigo Down",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM066",
+    "move": "Body Slam",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Skwovet Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Alomomola Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Chewtle Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM067",
+    "move": "Fire Punch",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Meditite Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Charcadet Soot",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM068",
+    "move": "Thunder Punch",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Toxel Sparks",
+        "quantity": 3
+      },
+      {
+        "name": "Meditite Sweat",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM069",
+    "move": "Ice Punch",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Cubchoo Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Meditite Sweat",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM070",
+    "move": "Sleep Talk",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Hippopotas Sand",
+        "quantity": 3
+      },
+      {
+        "name": "Slowpoke Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM071",
+    "move": "Seed Bomb",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Shroomish Spores",
+        "quantity": 5
+      },
+      {
+        "name": "Bramblin Twig",
+        "quantity": 3
+      },
+      {
+        "name": "Smoliv Oil",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM072",
+    "move": "Electro Ball",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Pachirisu Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Voltorb Sparks",
+        "quantity": 3
+      },
+      {
+        "name": "Tadbulb Mucus",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM073",
+    "move": "Drain Punch",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Croagunk Poison",
+        "quantity": 5
+      },
+      {
+        "name": "Mankey Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Crabrawler Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM074",
+    "move": "Reflect",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Drowzee Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Flittle Down",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM075",
+    "move": "Light Screen",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Magnemite Screw",
+        "quantity": 3
+      },
+      {
+        "name": "Voltorb Sparks",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM076",
+    "move": "Rock Blast",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Nacli Salt",
+        "quantity": 3
+      },
+      {
+        "name": "Chewtle Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM077",
+    "move": "Waterfall",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Magikarp Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Basculin Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Arrokuda Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM078",
+    "move": "Dragon Claw",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Axew Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Noibat Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Gible Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM079",
+    "move": "Dazzling Gleam",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Hatenna Dust",
+        "quantity": 3
+      },
+      {
+        "name": "Swablu Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Fidough Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM080",
+    "move": "Metronome",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Igglybuff Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Happiny Dust",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM081",
+    "move": "Grass Knot",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Cacnea Needle",
+        "quantity": 3
+      },
+      {
+        "name": "Shroomish Spores",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM082",
+    "move": "Thunder Wave",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Mareep Wool",
+        "quantity": 3
+      },
+      {
+        "name": "Pawmi Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM083",
+    "move": "Poison Jab",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Shroodle Ink",
+        "quantity": 3
+      },
+      {
+        "name": "Seviper Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Mareanie Spike",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM084",
+    "move": "Stomping Tantrum",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Mudbray Mud",
+        "quantity": 3
+      },
+      {
+        "name": "Phanpy Nail",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM085",
+    "move": "Rest",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Drowzee Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM086",
+    "move": "Rock Slide",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Nacli Salt",
+        "quantity": 3
+      },
+      {
+        "name": "Rockruff Rock",
+        "quantity": 3
+      },
+      {
+        "name": "Bonsly Tears",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM087",
+    "move": "Taunt",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Meowth Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Sableye Gem",
+        "quantity": 3
+      },
+      {
+        "name": "Sneasel Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM088",
+    "move": "Swords Dance",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Zangoose Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Gible Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Scyther Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM089",
+    "move": "Body Press",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Cetoddle Grease",
+        "quantity": 5
+      },
+      {
+        "name": "Hawlucha Down",
+        "quantity": 3
+      },
+      {
+        "name": "Pawniard Blade",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM090",
+    "move": "Spikes",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Pincurchin Spines",
+        "quantity": 3
+      },
+      {
+        "name": "Qwilfish Spines",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM091",
+    "move": "Toxic Spikes",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Mareanie Spike",
+        "quantity": 3
+      },
+      {
+        "name": "Pineco Husk",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM092",
+    "move": "Imprison",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Bronzor Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Zorua Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM093",
+    "move": "Flash Cannon",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Varoom Fume",
+        "quantity": 3
+      },
+      {
+        "name": "Klefki Key",
+        "quantity": 3
+      },
+      {
+        "name": "Tinkatink Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM094",
+    "move": "Dark Pulse",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Zorua Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Impidimp Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritomb Fragment",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM095",
+    "move": "Leech Life",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Surskit Syrup",
+        "quantity": 3
+      },
+      {
+        "name": "Venonat Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Kricketot Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM096",
+    "move": "Eerie Impulse",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Voltorb Sparks",
+        "quantity": 3
+      },
+      {
+        "name": "Shinx Fang",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM097",
+    "move": "Fly",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Squawkabilly Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Bombirdier Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Rufflet Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM098",
+    "move": "Skill Swap",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Girafarig Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Flittle Down",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM099",
+    "move": "Iron Head",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Cufant Tarnish",
+        "quantity": 5
+      },
+      {
+        "name": "Pawniard Blade",
+        "quantity": 3
+      },
+      {
+        "name": "Rookidee Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM100",
+    "move": "Dragon Dance",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Tatsugiri Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Gible Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Noibat Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM101",
+    "move": "Power Gem",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Spoink Pearl",
+        "quantity": 3
+      },
+      {
+        "name": "Sableye Gem",
+        "quantity": 3
+      },
+      {
+        "name": "Mareep Wool",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM102",
+    "move": "Gunk Shot",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Grimer Toxin",
+        "quantity": 3
+      },
+      {
+        "name": "Croagunk Poison",
+        "quantity": 3
+      },
+      {
+        "name": "Varoom Fume",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM103",
+    "move": "Substitute",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Mimikyu Scrap",
+        "quantity": 3
+      },
+      {
+        "name": "Azurill Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Falinks Sweat",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM104",
+    "move": "Iron Defense",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Bronzor Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Pineco Husk",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM105",
+    "move": "X-Scissor",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Fomantis Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Tarountula Thread",
+        "quantity": 3
+      },
+      {
+        "name": "Kricketot Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM106",
+    "move": "Drill Run",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Pineco Husk",
+        "quantity": 5
+      },
+      {
+        "name": "Dunsparce Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Arrokuda Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM107",
+    "move": "Will-O-Wisp",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Salandit Gas",
+        "quantity": 3
+      },
+      {
+        "name": "Shuppet Scrap",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM108",
+    "move": "Crunch",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Maschiff Fang",
+        "quantity": 5
+      },
+      {
+        "name": "Bruxish Tooth",
+        "quantity": 3
+      },
+      {
+        "name": "Yungoos Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM109",
+    "move": "Trick",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Shuppet Scrap",
+        "quantity": 3
+      },
+      {
+        "name": "Sableye Gem",
+        "quantity": 3
+      },
+      {
+        "name": "Sinistea Chip",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM110",
+    "move": "Liquidation",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Arrokuda Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Wiglett Sand",
+        "quantity": 3
+      },
+      {
+        "name": "Buizel Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM111",
+    "move": "Giga Drain",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Capsakid Seed",
+        "quantity": 5
+      },
+      {
+        "name": "Hoppip Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Skiddo Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM112",
+    "move": "Aura Sphere",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Ralts Dust",
+        "quantity": 5
+      },
+      {
+        "name": "Riolu Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Charcadet Soot",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM113",
+    "move": "Tailwind",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Rufflet Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Rookidee Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Bombirdier Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM114",
+    "move": "Shadow Ball",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Gastly Gas",
+        "quantity": 5
+      },
+      {
+        "name": "Sandygast Sand",
+        "quantity": 3
+      },
+      {
+        "name": "Sinistea Chip",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM115",
+    "move": "Dragon Pulse",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Goomy Goo",
+        "quantity": 5
+      },
+      {
+        "name": "Swablu Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Tatsugiri Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM116",
+    "move": "Stealth Rock",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Rolycoly Coal",
+        "quantity": 3
+      },
+      {
+        "name": "Rockruff Rock",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM117",
+    "move": "Hyper Voice",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Litleo Tuft",
+        "quantity": 5
+      },
+      {
+        "name": "Tandemaus Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Skwovet Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM118",
+    "move": "Heat Wave",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Growlithe Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Torkoal Coal",
+        "quantity": 3
+      },
+      {
+        "name": "Larvesta Fuzz",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM119",
+    "move": "Energy Ball",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Deerling Hair",
+        "quantity": 5
+      },
+      {
+        "name": "Applin Juice",
+        "quantity": 3
+      },
+      {
+        "name": "Bramblin Twig",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM120",
+    "move": "Psychic",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Rellor Mud",
+        "quantity": 5
+      },
+      {
+        "name": "Indeedee Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Ralts Dust",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM121",
+    "move": "Heavy Slam",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Cufant Tarnish",
+        "quantity": 3
+      },
+      {
+        "name": "Bronzor Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Dondozo Whisker",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM122",
+    "move": "Encore",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Hawlucha Down",
+        "quantity": 3
+      },
+      {
+        "name": "Slakoth Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM123",
+    "move": "Surf",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Finneon Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Finizen Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Wiglett Sand",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM124",
+    "move": "Ice Spinner",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Cetoddle Grease",
+        "quantity": 5
+      },
+      {
+        "name": "Bergmite Ice",
+        "quantity": 3
+      },
+      {
+        "name": "Frigibax Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM125",
+    "move": "Flamethrower",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Litleo Tuft",
+        "quantity": 5
+      },
+      {
+        "name": "Houndour Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Numel Lava",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM126",
+    "move": "Thunderbolt",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Pachirisu Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Tadbulb Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Pichu Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM127",
+    "move": "Play Rough",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Fidough Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Tandemaus Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Tinkatink Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM128",
+    "move": "Amnesia",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Slowpoke Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Slakoth Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM129",
+    "move": "Calm Mind",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Stantler Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Indeedee Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM130",
+    "move": "Helping Hand",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Eevee Fur",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM131",
+    "move": "Pollen Puff",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Rellor Mud",
+        "quantity": 5
+      },
+      {
+        "name": "Petilil Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Kricketot Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM132",
+    "move": "Baton Pass",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Girafarig Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Eevee Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM133",
+    "move": "Earth Power",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Silicobra Sand",
+        "quantity": 5
+      },
+      {
+        "name": "Shellos Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Barboach Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM134",
+    "move": "Reversal",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Falinks Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Heracross Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Mankey Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM135",
+    "move": "Ice Beam",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Cryogonal Ice",
+        "quantity": 5
+      },
+      {
+        "name": "Shellder Pearl",
+        "quantity": 3
+      },
+      {
+        "name": "Delibird Parcel",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM136",
+    "move": "Electric Terrain",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Pincurchin Spines",
+        "quantity": 3
+      },
+      {
+        "name": "Tadbulb Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Pawmi Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM137",
+    "move": "Grassy Terrain",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Flabébé Pollen",
+        "quantity": 3
+      },
+      {
+        "name": "Sunkern Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Fomantis Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM138",
+    "move": "Psychic Terrain",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Slowpoke Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Indeedee Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Drowzee Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM139",
+    "move": "Misty Terrain",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Klefki Key",
+        "quantity": 3
+      },
+      {
+        "name": "Igglybuff Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Flabébé Pollen",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM140",
+    "move": "Nasty Plot",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Meowth Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Spiritomb Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Tatsugiri Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM141",
+    "move": "Fire Blast",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Numel Lava",
+        "quantity": 5
+      },
+      {
+        "name": "Larvesta Fuzz",
+        "quantity": 3
+      },
+      {
+        "name": "Torkoal Coal",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM142",
+    "move": "Hydro Pump",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Finizen Mucus",
+        "quantity": 5
+      },
+      {
+        "name": "Finneon Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Luvdisc Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM143",
+    "move": "Blizzard",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Snorunt Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Snover Berries",
+        "quantity": 3
+      },
+      {
+        "name": "Cryogonal Ice",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM144",
+    "move": "Fire Pledge",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Salandit Gas",
+        "quantity": 3
+      },
+      {
+        "name": "Numel Lava",
+        "quantity": 3
+      },
+      {
+        "name": "Capsakid Seed",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM145",
+    "move": "Water Pledge",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Luvdisc Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Alomomola Mucus",
+        "quantity": 3
+      },
+      {
+        "name": "Shellder Pearl",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM146",
+    "move": "Grass Pledge",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Applin Juice",
+        "quantity": 3
+      },
+      {
+        "name": "Toedscool Flaps",
+        "quantity": 3
+      },
+      {
+        "name": "Deerling Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM147",
+    "move": "Wild Charge",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Shinx Fang",
+        "quantity": 5
+      },
+      {
+        "name": "Pichu Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Tynamo Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM148",
+    "move": "Sludge Bomb",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Croagunk Poison",
+        "quantity": 5
+      },
+      {
+        "name": "Grimer Toxin",
+        "quantity": 3
+      },
+      {
+        "name": "Foongus Spores",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM149",
+    "move": "Earthquake",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Phanpy Nail",
+        "quantity": 5
+      },
+      {
+        "name": "Diglett Dirt",
+        "quantity": 3
+      },
+      {
+        "name": "Barboach Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM150",
+    "move": "Stone Edge",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Rolycoly Coal",
+        "quantity": 5
+      },
+      {
+        "name": "Rockruff Rock",
+        "quantity": 3
+      },
+      {
+        "name": "Klawf Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM151",
+    "move": "Phantom Force",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Sinistea Chip",
+        "quantity": 5
+      },
+      {
+        "name": "Shuppet Scrap",
+        "quantity": 3
+      },
+      {
+        "name": "Greavard Wax",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM152",
+    "move": "Giga Impact",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Tauros Hair",
+        "quantity": 8
+      },
+      {
+        "name": "Zangoose Claw",
+        "quantity": 5
+      },
+      {
+        "name": "Slakoth Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM153",
+    "move": "Blast Burn",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Houndour Fang",
+        "quantity": 8
+      },
+      {
+        "name": "Charcadet Soot",
+        "quantity": 5
+      },
+      {
+        "name": "Growlithe Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM154",
+    "move": "Hydro Cannon",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Qwilfish Spines",
+        "quantity": 8
+      },
+      {
+        "name": "Dondozo Whisker",
+        "quantity": 5
+      },
+      {
+        "name": "Luvdisc Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM155",
+    "move": "Frenzy Plant",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Tropius Leaf",
+        "quantity": 8
+      },
+      {
+        "name": "Skiddo Leaf",
+        "quantity": 5
+      },
+      {
+        "name": "Cacnea Needle",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM156",
+    "move": "Outrage",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Axew Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Dratini Scales",
+        "quantity": 3
+      },
+      {
+        "name": "Frigibax Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM157",
+    "move": "Overheat",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Litleo Tuft",
+        "quantity": 5
+      },
+      {
+        "name": "Numel Lava",
+        "quantity": 3
+      },
+      {
+        "name": "Capsakid Seed",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM158",
+    "move": "Focus Blast",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Flamigo Down",
+        "quantity": 5
+      },
+      {
+        "name": "Meditite Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Impidimp Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM159",
+    "move": "Leaf Storm",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Bounsweet Sweat",
+        "quantity": 5
+      },
+      {
+        "name": "Tropius Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Toedscool Flaps",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM160",
+    "move": "Hurricane",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Swablu Fluff",
+        "quantity": 5
+      },
+      {
+        "name": "Oricorio Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Wingull Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM161",
+    "move": "Trick Room",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Hatenna Dust",
+        "quantity": 3
+      },
+      {
+        "name": "Bronzor Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Gothita Eyelash",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM162",
+    "move": "Bug Buzz",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Kricketot Shell",
+        "quantity": 5
+      },
+      {
+        "name": "Combee Honey",
+        "quantity": 3
+      },
+      {
+        "name": "Venonat Fang",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM163",
+    "move": "Hyper Beam",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Dratini Scales",
+        "quantity": 8
+      },
+      {
+        "name": "Goomy Goo",
+        "quantity": 5
+      },
+      {
+        "name": "Tauros Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM164",
+    "move": "Brave Bird",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Starly Feather",
+        "quantity": 5
+      },
+      {
+        "name": "Rufflet Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Rookidee Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM165",
+    "move": "Flare Blitz",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Growlithe Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Fletchling Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Charcadet Soot",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM166",
+    "move": "Thunder",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Dedenne Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Pichu Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Tynamo Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM167",
+    "move": "Close Combat",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Riolu Fur",
+        "quantity": 5
+      },
+      {
+        "name": "Crabrawler Shell",
+        "quantity": 3
+      },
+      {
+        "name": "Makuhita Sweat",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM168",
+    "move": "Solar Beam",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Bounsweet Sweat",
+        "quantity": 5
+      },
+      {
+        "name": "Tropius Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Foongus Spores",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM169",
+    "move": "Draco Meteor",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Goomy Goo",
+        "quantity": 8
+      },
+      {
+        "name": "Frigibax Scales",
+        "quantity": 5
+      },
+      {
+        "name": "Applin Juice",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM170",
+    "move": "Steel Beam",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Magnemite Screw",
+        "quantity": 8
+      },
+      {
+        "name": "Orthworm Tarnish",
+        "quantity": 5
+      },
+      {
+        "name": "Cufant Tarnish",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM171",
+    "move": "Tera Blast",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Glimmet Crystal",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "tm": "TM172",
+    "move": "Roar",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Poochyena Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Houndour Fang",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM173",
+    "move": "Charge",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Pichu Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM174",
+    "move": "Haze",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Feebas Scales",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM175",
+    "move": "Toxic",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Ekans Fang",
+        "quantity": 3
+      },
+      {
+        "name": "Koffing Gas",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM176",
+    "move": "Sand Tomb",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Sandshrew Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Diglett Dirt",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM177",
+    "move": "Spite",
+    "lpCost": 200,
+    "materials": [
+      {
+        "name": "Duskull Fragment",
+        "quantity": 2
+      },
+      {
+        "name": "Gastly Gas",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM178",
+    "move": "Gravity",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Cleffa Fur",
+        "quantity": 2
+      },
+      {
+        "name": "Nosepass Fragment",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "tm": "TM179",
+    "move": "Smack Down",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Geodude Fragment",
+        "quantity": 3
+      },
+      {
+        "name": "Carbink Jewel",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM180",
+    "move": "Gyro Ball",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Nosepass Fragment",
+        "quantity": 4
+      },
+      {
+        "name": "Bronzor Fragment",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM181",
+    "move": "Knock Off",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Corphish Shell",
+        "quantity": 4
+      },
+      {
+        "name": "Seedot Stem",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "tm": "TM182",
+    "move": "Bug Bite",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Yanma Spike",
+        "quantity": 2
+      },
+      {
+        "name": "Surskit Syrup",
+        "quantity": 2
+      },
+      {
+        "name": "Sewaddle Leaf",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM183",
+    "move": "Super Fang",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Sandshrew Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Tandemaus Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM184",
+    "move": "Vacuum Wave",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Riolu Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Croagunk Poison",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM185",
+    "move": "Lunge",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Sewaddle Leaf",
+        "quantity": 3
+      },
+      {
+        "name": "Kricketot Shell",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM186",
+    "move": "High Horsepower",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Swinub Hair",
+        "quantity": 2
+      },
+      {
+        "name": "Mudbray Mud",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "tm": "TM187",
+    "move": "Icicle Spear",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Swinub Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Snorunt Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM188",
+    "move": "Scald",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Poltchageist Powder",
+        "quantity": 3
+      },
+      {
+        "name": "Slowpoke Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM189",
+    "move": "Heat Crash",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Slugma Lava",
+        "quantity": 4
+      },
+      {
+        "name": "Munchlax Fang",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM190",
+    "move": "Solar Blade",
+    "lpCost": 12000,
+    "materials": [
+      {
+        "name": "Seedot Stem",
+        "quantity": 4
+      },
+      {
+        "name": "Sewaddle Leaf",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM191",
+    "move": "Uproar",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Lotad Leaf",
+        "quantity": 4
+      },
+      {
+        "name": "Chingling Fragment",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM192",
+    "move": "Focus Punch",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Timburr Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Jangmo-o Scales",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM193",
+    "move": "Weather Ball",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Vulpix Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Petilil Leaf",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM194",
+    "move": "Grassy Glide",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Bellsprout Vine",
+        "quantity": 3
+      },
+      {
+        "name": "Seedot Stem",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM195",
+    "move": "Burning Jealousy",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Litwick Soot",
+        "quantity": 2
+      },
+      {
+        "name": "Vulpix Fur",
+        "quantity": 2
+      },
+      {
+        "name": "Mimikyu Scrap",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM196",
+    "move": "Flip Turn",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Basculin Fang",
+        "quantity": 2
+      },
+      {
+        "name": "Veluza Fillet",
+        "quantity": 2
+      },
+      {
+        "name": "Finizen Mucus",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM197",
+    "move": "Dual Wingbeat",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Ducklett Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Bombirdier Feather",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM198",
+    "move": "Poltergeist",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Litwick Soot",
+        "quantity": 2
+      },
+      {
+        "name": "Phantump Twig",
+        "quantity": 2
+      },
+      {
+        "name": "Duskull Fragment",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM199",
+    "move": "Lash Out",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Vullaby Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Pawniard Blade",
+        "quantity": 2
+      },
+      {
+        "name": "Poochyena Fang",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM200",
+    "move": "Scale Shot",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Jangmo-o Scales",
+        "quantity": 2
+      },
+      {
+        "name": "Gible Scales",
+        "quantity": 2
+      },
+      {
+        "name": "Arrokuda Scales",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM201",
+    "move": "Misty Explosion",
+    "lpCost": 14000,
+    "materials": [
+      {
+        "name": "Carbink Jewel",
+        "quantity": 2
+      },
+      {
+        "name": "Cleffa Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM202",
+    "move": "Pain Split",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Solosis Gel",
+        "quantity": 3
+      },
+      {
+        "name": "Comfey Flower",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM203",
+    "move": "Psych Up",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Porygon Fragment",
+        "quantity": 1
+      },
+      {
+        "name": "Stantler Hair",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM204",
+    "move": "Double-Edge",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Rhyhorn Fang",
+        "quantity": 4
+      },
+      {
+        "name": "Tauros Hair",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM205",
+    "move": "Endeavor",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Snubbull Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Tauros Hair",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM206",
+    "move": "Petal Blizzard",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Oddish Leaf",
+        "quantity": 2
+      },
+      {
+        "name": "Comfey Flower",
+        "quantity": 2
+      },
+      {
+        "name": "Cottonee Fluff",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM207",
+    "move": "Temper Flare",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Magby Hair",
+        "quantity": 3
+      },
+      {
+        "name": "Numel Lava",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM208",
+    "move": "Whirlpool",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Horsea Ink",
+        "quantity": 2
+      },
+      {
+        "name": "Seel Fur",
+        "quantity": 2
+      },
+      {
+        "name": "Lapras Teardrop",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM209",
+    "move": "Muddy Water",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Horsea Ink",
+        "quantity": 3
+      },
+      {
+        "name": "Wooper Slime",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM210",
+    "move": "Supercell Slam",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Elekid Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Blitzle Mane Hair",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM211",
+    "move": "Electroweb",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Joltik Thread",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "tm": "TM212",
+    "move": "Triple Axel",
+    "lpCost": 8000,
+    "materials": [
+      {
+        "name": "Tyrogue Sweat",
+        "quantity": 1
+      },
+      {
+        "name": "Minccino Fur",
+        "quantity": 1
+      },
+      {
+        "name": "Sneasel Claw",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM213",
+    "move": "Coaching",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Scraggy Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Pawmi Fur",
+        "quantity": 1
+      },
+      {
+        "name": "Tyrogue Sweat",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM214",
+    "move": "Sludge Wave",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Tentacool Stinger",
+        "quantity": 2
+      },
+      {
+        "name": "Qwilfish Spines",
+        "quantity": 2
+      },
+      {
+        "name": "Gastly Gas",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM215",
+    "move": "Scorching Sands",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Trapinch Shell",
+        "quantity": 2
+      },
+      {
+        "name": "Sandile Claw",
+        "quantity": 1
+      },
+      {
+        "name": "Drilbur Claw",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM216",
+    "move": "Feather Dance",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Pikipek Feather",
+        "quantity": 3
+      },
+      {
+        "name": "Murkrow Bauble",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM217",
+    "move": "Future Sight",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Solosis Gel",
+        "quantity": 2
+      },
+      {
+        "name": "Slowpoke Claw",
+        "quantity": 2
+      },
+      {
+        "name": "Drowzee Fur",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM218",
+    "move": "Expanding Force",
+    "lpCost": 10000,
+    "materials": [
+      {
+        "name": "Espurr Fur",
+        "quantity": 3
+      },
+      {
+        "name": "Exeggcute Shell",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM219",
+    "move": "Skitter Smack",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Dewpider Thread",
+        "quantity": 3
+      },
+      {
+        "name": "Rellor Mud",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM220",
+    "move": "Meteor Beam",
+    "lpCost": 15000,
+    "materials": [
+      {
+        "name": "Minior Shell",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "tm": "TM221",
+    "move": "Throat Chop",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Scraggy Sweat",
+        "quantity": 2
+      },
+      {
+        "name": "Zorua Fur",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM222",
+    "move": "Breaking Swipe",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Duraludon Tarnish",
+        "quantity": 3
+      },
+      {
+        "name": "Axew Scales",
+        "quantity": 2
+      },
+      {
+        "name": "Cyclizar Scales",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM223",
+    "move": "Metal Sound",
+    "lpCost": 800,
+    "materials": [
+      {
+        "name": "Magnemite Screw",
+        "quantity": 2
+      },
+      {
+        "name": "Elekid Fur",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM224",
+    "move": "Curse",
+    "lpCost": 400,
+    "materials": [
+      {
+        "name": "Golett Shard",
+        "quantity": 4
+      },
+      {
+        "name": "Nacli Salt",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM225",
+    "move": "Hard Press",
+    "lpCost": 5000,
+    "materials": [
+      {
+        "name": "Beldum Claw",
+        "quantity": 3
+      },
+      {
+        "name": "Cufant Tarnish",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM226",
+    "move": "Dragon Cheer",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Tatsugiri Scales",
+        "quantity": 2
+      },
+      {
+        "name": "Lapras Teardrop",
+        "quantity": 2
+      },
+      {
+        "name": "Applin Juice",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "tm": "TM227",
+    "move": "Alluring Voice",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Igglybuff Fluff",
+        "quantity": 3
+      },
+      {
+        "name": "Ralts Dust",
+        "quantity": 2
+      },
+      {
+        "name": "Cottonee Fluff",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "tm": "TM228",
+    "move": "Psychic Noise",
+    "lpCost": 3000,
+    "materials": [
+      {
+        "name": "Psyduck Down",
+        "quantity": 3
+      },
+      {
+        "name": "Chingling Fragment",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "tm": "TM229",
+    "move": "Upper Hand",
+    "lpCost": 1500,
+    "materials": [
+      {
+        "name": "Makuhita Sweat",
+        "quantity": 3
+      },
+      {
+        "name": "Tyrogue Sweat",
+        "quantity": 3
+      }
+    ]
+  }
+]
