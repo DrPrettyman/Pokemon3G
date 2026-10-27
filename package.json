@@ -1,0 +1,8 @@
+{
+  "name": "veekun-pokedex-data-root",
+  "private": true,
+  "workspaces": [
+    "pokedata3g",
+    "battle-playground"
+  ]
+}

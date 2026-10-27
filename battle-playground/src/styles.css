@@ -1,0 +1,205 @@
+/* Pokémon Gen 3 Latin font — the real Emerald/FRLG game font converted to
+ * OpenType with COLRv1 color glyphs. Sourced from `pokefont/Emerald.ttf`
+ * (see https://arcanenibble.github.io/a-quick-introduction-to-opentype.html).
+ * The font defines 1em = 16 font units = 16 CSS pixels, so rendering at
+ * `font-size: 16px` gives pixel-perfect integer alignment. The default
+ * CPAL palette is black fg + light-gray shadow, which is unreadable on
+ * the dark-teal battle textbox — we override it via
+ * `font-palette-values --battle-msg` to white fg + purple-gray shadow,
+ * matching the decomp's `B_WIN_MSG` colors in `src/battle_message.c:2408`
+ * (`fgColor=1 → (255,255,255)`, `shadowColor=6 → (106,90,115)`).
+ */
+@font-face {
+  font-family: "Emerald";
+  src: url("./assets/font/Emerald.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-palette-values --battle-msg {
+  font-family: "Emerald";
+  override-colors:
+    0 #ffffff,
+    2 #6a5a73;
+}
+
+@font-palette-values --battle-hud {
+  /* HUD overlay windows (action menu, move-select, move-info) use
+     a light-palette chrome (white interior, navy border) built from
+     `graphics/text_window/type1` in the decomp. The text rendered
+     into these windows is dark with a light-grey shadow, matching
+     the decomp's `B_WIN_ACTION_MENU`/`B_WIN_MOVE_NAME_*` colors
+     `fgColor=13, shadowColor=15` from `battle_message.c:2432-2515`
+     against palette 5 overrides in `battle_bg.c:696-699`:
+        idx 13 = RGB(9, 9, 9)   ≈ #494949
+        idx 15 = RGB(26, 26, 25) ≈ #d2d2ca (light grey shadow) */
+  font-family: "Emerald";
+  override-colors:
+    0 #494949,
+    2 #d2d2ca;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; padding: 0; height: 100%; background: #111; color: #eee; font-family: system-ui, sans-serif; }
+img { image-rendering: pixelated; image-rendering: crisp-edges; }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+/* Setup screen */
+.setup {
+  width: min(960px, 100%);
+  background: #1a1a1f;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.setup h1 { margin: 0; font-size: 20px; }
+.setup .row { display: flex; gap: 16px; flex-wrap: wrap; }
+.setup label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #aaa; }
+.setup select, .setup input[type="number"] {
+  background: #262630; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 6px 10px;
+}
+.setup button.start {
+  padding: 12px 20px; font-size: 16px; background: #3b82f6; color: white; border: none; border-radius: 8px; cursor: pointer;
+}
+.setup button.start:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Party panel */
+.party-panel { display: flex; flex-direction: column; gap: 8px; }
+.party-panel h2 { margin: 0; font-size: 14px; color: #aaa; text-transform: uppercase; letter-spacing: 1px; }
+.party-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.party-slot {
+  background: #262630; border: 1px solid #3a3a44; border-radius: 8px; padding: 8px;
+  display: flex; flex-direction: column; align-items: center; gap: 2px; cursor: pointer; user-select: none;
+  min-height: 96px;
+}
+.party-slot.editable:hover { border-color: #3b82f6; }
+.party-slot.readonly { cursor: default; }
+.party-slot img { width: 56px; height: 56px; }
+.party-slot .name { font-size: 11px; text-transform: capitalize; }
+.party-slot .lvl { font-size: 10px; color: #888; }
+
+/* Modal */
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+  display: flex; align-items: center; justify-content: center; z-index: 100;
+}
+.modal {
+  background: #1a1a1f; border: 1px solid #444; border-radius: 12px; padding: 20px;
+  width: min(520px, 100%); display: flex; flex-direction: column; gap: 12px;
+}
+.modal h2 { margin: 0; font-size: 16px; }
+.modal .move-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.modal .actions { display: flex; gap: 8px; justify-content: flex-end; }
+.modal button { padding: 8px 14px; border-radius: 6px; border: 1px solid #444; background: #262630; color: #eee; cursor: pointer; }
+.modal button.primary { background: #3b82f6; border-color: #3b82f6; }
+
+/* Battle screen — scaled 3x from native GBA backdrop + textbox (240x160). */
+.battle-stage {
+  position: relative;
+  width: 720px;   /* 240 * 3 */
+  height: 480px;  /* (112 + 48) * 3 — backdrop + textbox */
+  background: #000;
+  border: 2px solid #333;
+  overflow: hidden;
+}
+/* Phaser hosts the backdrop + sprites + weather + move fx + textbox chrome.
+   Text glyphs are rendered as DOM children of a Phaser DOMElement inside the
+   canvas parent, so the Emerald OpenType font with its custom palette
+   overrides can render crisply at any scale. React just anchors the canvas
+   and overlays the action menu buttons. */
+.phaser-stage {
+  position: absolute; left: 0; top: 0;
+  width: 720px; height: 480px;
+}
+.phaser-stage canvas { display: block; image-rendering: pixelated; }
+/* All Phaser DOMElement text inside the stage uses the Emerald font.
+   Individual printers set `font-palette` on their node to pick
+   `--battle-msg` (dialogue) or `--battle-hud` (healthbox chrome).
+   Text nodes are a root `<div class="gba-text">` containing one
+   `<div class="gba-text-line">` child per line — the per-line divs
+   give Blink a fresh paint context for `font-palette` on every
+   line. Putting multiple lines inside one span via `\n` +
+   `white-space: pre-wrap` triggers a Chrome bug where the first
+   glyph of the second line falls back to the font's default CPAL
+   palette. */
+.phaser-stage .gba-text {
+  font-family: "Emerald", monospace;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  image-rendering: pixelated;
+  pointer-events: none;
+  user-select: none;
+}
+.phaser-stage .gba-text-line {
+  font-family: inherit;
+  font-size: inherit;
+  font-palette: inherit;
+  white-space: pre;
+  line-height: 16px;
+}
+.phaser-stage .gba-text.dialogue,
+.phaser-stage .gba-text.dialogue .gba-text-line {
+  font-palette: --battle-msg;
+}
+.phaser-stage .gba-text.hud,
+.phaser-stage .gba-text.hud .gba-text-line {
+  font-palette: --battle-hud;
+}
+/* `small` variant — real `latin_small` glyphs (8×13 cell) exposed
+   as OpenType stylistic set `ss01` on the same Emerald.ttf. See
+   `pokefont/README.md` — the font ships with five Latin variants
+   as stylistic sets rather than separate files. Used by
+   `B_WIN_MOVE_NAME_*` / `B_WIN_MOVE_TYPE` / `B_WIN_PP` (decomp
+   `FONT_SMALL`, `src/battle_message.c:2444-2515`). */
+.phaser-stage .gba-text.small,
+.phaser-stage .gba-text.small .gba-text-line {
+  font-feature-settings: "ss01";
+}
+
+/* Gender symbol in healthbox — rendered as a separate <span> with a
+   fallback web-safe font so CSS `color` applies (COLRv1 glyphs in
+   Emerald.ttf ignore CSS color). Colors match the decomp's
+   TEXT_DYNAMIC_COLOR_2 (male = blue) and TEXT_DYNAMIC_COLOR_1
+   (female = red/pink). */
+.phaser-stage .gender-symbol {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+.phaser-stage .gender-male  { color: #6890F0; }
+.phaser-stage .gender-female { color: #F85888; }
+
+/* Action menu overlay. Phaser paints the textbox chrome + narration text;
+   this layer just floats the Fight/Bag/Pokemon/Run buttons over the right
+   half of the bottom textbox region so the left half stays clear for text. */
+.textbox-menu {
+  position: absolute;
+  left: 372px;      /* right half of the 720px stage */
+  right: 12px;
+  bottom: 12px;
+  height: 120px;
+  pointer-events: none;
+}
+.textbox-menu > * { pointer-events: auto; }
+.action-menu { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.action-menu button, .move-menu button {
+  padding: 6px 10px; background: #fefefe; border: 2px solid #333; border-radius: 4px; font-family: monospace; font-size: 12px; cursor: pointer; text-transform: capitalize;
+}
+.action-menu button:disabled, .move-menu button:disabled { opacity: 0.4; cursor: not-allowed; }
+.move-menu { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+
